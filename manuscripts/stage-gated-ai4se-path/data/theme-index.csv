@@ -1,0 +1,13 @@
+theme_id,theme_title_en,status_at_explore_closeout,notes
+1,AI-ready story / living specification,released,Part of countable L2 release set
+2,UI prototyping,released,Part of countable L2 release set
+3,AI artifact review,released,Part of countable L2 release set
+4,Cycle-time / AI-effectiveness measurement design,released,Numeric results live in companion measurement data pack only
+5,Role handoff,observation,Not presented as fully converged at Explore closeout
+6,User harness / context pack,released,Part of countable L2 release set
+7,Knowledge-base grounding,released,Part of countable L2 release set
+8,Test engineering,released,Part of countable L2 release set
+9,Token / model routing,observation,Not presented as fully converged at Explore closeout
+10,Brownfield specification-driven development,released,Part of countable L2 release set
+11,Agent nondeterminism evaluation,released,Part of countable L2 release set
+12,CI toward AI control-system checks,released,Part of countable L2 release set
