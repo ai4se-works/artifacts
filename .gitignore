@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
