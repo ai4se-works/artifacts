@@ -1,17 +1,15 @@
 # Papers
 
-Academic manuscripts and supporting materials.
+Accepted or published academic papers (promoted from [`../manuscripts/`](../manuscripts/) after acceptance).
 
 Each entry lives in `papers/<slug>/`:
 
     papers/<slug>/
-      README.md      # title, status, summary, links
-      paper/         # optional: preprint PDF or sources
-      data/          # optional: Data Availability pack for reviewers
+      README.md      # title, status, summary, venue/DOI links
+      paper/         # camera-ready or published PDF / sources
+      data/          # Data Availability pack (if applicable)
       figures/       # optional
 
-**Status values:** `draft` · `under review` · `published`
+**Status values:** `accepted` · `published`
 
-While under review, describe the topic and materials only—do not name target venues.
-
-Entries will appear here as they are released.
+Entries will appear here after acceptance.

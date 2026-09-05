@@ -4,7 +4,8 @@ This repository publishes anonymized AI4SE practice materials for the global com
 
 ## What belongs here
 
-- Anonymized academic manuscripts and their **data packs** (`papers/<slug>/`)
+- Academic **manuscripts** and their **data packs** (`manuscripts/<slug>/`) while in draft or under review
+- **Accepted or published** papers (`papers/<slug>/`)
 - Industry talks and keynotes (`talks/<slug>/`)
 - Non-academic practice reports (`reports/<slug>/`)
 
@@ -27,12 +28,18 @@ Before publishing any engagement-derived evidence:
 
 English is the default. Chinese materials should be clearly labeled or placed under a `zh/` subpath within the entry folder.
 
-## Adding a paper entry
+## Adding a manuscript (pre-acceptance)
 
 1. Choose a **topic-based** slug: lowercase, hyphenated (e.g. `stage-gated-ai4se-path`). Do not encode a venue name in the slug while under review.
-2. Create `papers/<slug>/README.md` with: title, short summary, status (`draft` | `under review` | `published`), authors (omit or anonymize if double-blind rules require it), and links to `paper/` / `data/` if present.
-3. If providing Data Availability materials, add `papers/<slug>/data/` with a `README.md` and derived files only.
+2. Create `manuscripts/<slug>/README.md` with: title, short summary, status (`draft` | `under review`), authors (omit or anonymize if double-blind rules require it), and links to `paper/` / `data/` if present.
+3. If providing Data Availability materials, add `manuscripts/<slug>/data/` with a `README.md` and derived files only.
 4. Open a PR describing what changed and confirming anonymization review.
+
+## Promoting to papers (after acceptance)
+
+1. Move `manuscripts/<slug>/` to `papers/<slug>/` (keep the same slug when possible).
+2. Update the entry README: status `published` (or `accepted`), and add venue / DOI / proceedings links as appropriate.
+3. Update any Data Availability URLs in the manuscript if the path changed (prefer stable slugs so only the parent folder changes).
 
 ## Venue silence while under review
 
