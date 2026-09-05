@@ -1,7 +1,7 @@
 # Data pack — stage-gated AI4SE path (reviewer-facing)
 
 Anonymized, **self-contained** evidence for the manuscript
-*From Pilot toward Conditional Scale: A Stage-Gated AI4SE Path for Mid-to-Large Software Organizations*.
+*From Pilot Evidence to Conditional Scale: An AI4SE Operating Stack for Mid-to-Large Organizations*.
 
 **Canonical URL:** https://github.com/ai4se-works/artifacts/tree/main/manuscripts/stage-gated-ai4se-path/data  
 **License:** CC-BY-4.0 (repository root `LICENSE`)
