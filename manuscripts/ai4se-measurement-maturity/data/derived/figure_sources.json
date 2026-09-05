@@ -1,0 +1,48 @@
+{
+  "description": "Maps planned Paper C figures to anonymized derived CSVs. Update if figure IDs change in outline/LaTeX.",
+  "figures": [
+    {
+      "id": "F1",
+      "title": "Maturity domain before/after (radar or clustered bars)",
+      "source_csv": "derived/maturity_domain_scores.csv",
+      "columns": ["domain_id", "domain_name_en", "before", "after", "delta"],
+      "signal_type": "process_signal",
+      "artifact": "paper-c-measurement/figures/f1-maturity-domains.pdf",
+      "notes": "Clustered bar chart; PNG sibling also generated for preview."
+    },
+    {
+      "id": "F2",
+      "title": "Capability-level maturity heatmap (18 items)",
+      "source_csv": "derived/maturity_capabilities.csv",
+      "columns": ["domain_id", "capability_id", "before", "after", "delta", "before_level", "after_level"],
+      "signal_type": "process_signal"
+    },
+    {
+      "id": "F3",
+      "title": "Workshop pair throughput and cycle-time signals",
+      "source_csv": "derived/effectiveness_pair_summary.csv",
+      "columns": [
+        "pair_id",
+        "tp_before",
+        "tp_after",
+        "tp_delta_improve",
+        "ct1_p75_before",
+        "ct1_p75_after",
+        "ct1_speedup",
+        "ct2_p75_before",
+        "ct2_p75_after",
+        "ct2_speedup"
+      ],
+      "signal_type": "expert_estimate",
+      "notes": "pair_id is Pair-1..Pair-6 only; never plot member names."
+    },
+    {
+      "id": "F4",
+      "title": "Cross-pair median and IQR of improve deltas",
+      "source_csv": "derived/effectiveness_aggregate.csv",
+      "columns": ["metric", "stat", "value"],
+      "filter": "stat in {median, p25, p75, iqr}",
+      "signal_type": "expert_estimate"
+    }
+  ]
+}

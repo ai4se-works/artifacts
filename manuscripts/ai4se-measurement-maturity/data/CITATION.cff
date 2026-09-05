@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this public-data pack, please cite it as below."
+title: "Beyond Multiplier Myths: Boundary-Aware Maturity and Productivity Measurement for Industrial AI4SE Transformations — public data pack"
+type: dataset
+license: CC-BY-4.0
+authors:
+  - family-names: Qiu
+    given-names: Juan
+    affiliation: Inspire Group
+  - family-names: Yan
+    given-names: Qilong
+    affiliation: Inspire Group
+repository-code: "https://github.com/ai4se-works/artifacts"
+url: "https://github.com/ai4se-works/artifacts/tree/main/manuscripts/ai4se-measurement-maturity/data"
+abstract: >
+  Public release pack (derived summary tables, protocol text, and scripts)
+  accompanying a working paper on boundary-aware maturity and
+  productivity measurement for industrial AI4SE transformations.
+keywords:
+  - AI4SE
+  - software engineering productivity
+  - maturity assessment
+  - industrial case
+version: "0.1.0"
+date-released: "2026-09-05"

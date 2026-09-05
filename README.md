@@ -11,6 +11,13 @@ We distill frontline AI4SE consulting practice into materials the global softwar
 | [`talks/`](talks/) | Keynotes and industry conference shares |
 | [`reports/`](reports/) | Practice reports that are not formal academic papers |
 
+### Manuscripts currently under review
+
+| Entry | Data Availability |
+|-------|-------------------|
+| [Stage-gated AI4SE path](manuscripts/stage-gated-ai4se-path/) | [data/](https://github.com/ai4se-works/artifacts/tree/main/manuscripts/stage-gated-ai4se-path/data) |
+| [Boundary-aware AI4SE measurement](manuscripts/ai4se-measurement-maturity/) | [data/](https://github.com/ai4se-works/artifacts/tree/main/manuscripts/ai4se-measurement-maturity/data) |
+
 ## How we work
 
 - Evidence comes from consulting engagements and is **anonymized** before release.

@@ -1,0 +1,7 @@
+domain_id,domain_name_en,before,after,delta,signal_type,notes
+D1,Efficiency Foundation,1.67,2,0.33,process_signal,L1 capabilities 1->0; L3+ capabilities 0->0
+D2,Process Layer,1.67,2.33,0.66,process_signal,L1 capabilities 1->0; L3+ capabilities 0->1
+D3,Engineering Methods & Discipline,1.67,2.33,0.66,process_signal,L1 capabilities 1->0; L3+ capabilities 0->1
+D4,Tooling Layer,2,2.33,0.33,process_signal,L1 capabilities 0->0; L3+ capabilities 0->1
+D5,Human–Agent Collaboration,1.67,2,0.33,process_signal,L1 capabilities 1->0; L3+ capabilities 0->0
+D6,Organization & Culture,2,3,1,process_signal,L1 capabilities 0->0; L3+ capabilities 0->3

@@ -1,0 +1,12 @@
+# latexmk / pdflatex auxiliaries (keep smoke PDF optional; ignore by default)
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot

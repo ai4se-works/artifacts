@@ -1,0 +1,19 @@
+domain_id,capability_id,capability_name_en,before,after,delta,before_level,after_level,signal_type
+D1,D1.1,Value Goals & Outcome Hypotheses,2,2,0,L2,L2,process_signal
+D1,D1.2,Quality & Trust Baseline,2,2,0,L2,L2,process_signal
+D1,D1.3,Efficiency & Flow Measurement,1,2,1,L1,L2,process_signal
+D2,D2.1,AI4SE Workflow Design,2,3,1,L2,L3,process_signal
+D2,D2.2,Small-Batch Task Decomposition,1,2,1,L1,L2,process_signal
+D2,D2.3,Evidence-Driven Review/Ship Gates,2,2,0,L2,L2,process_signal
+D3,D3.1,Spec-Driven Expression,2,3,1,L2,L3,process_signal
+D3,D3.2,Context Organization,1,2,1,L1,L2,process_signal
+D3,D3.3,Verification & Evidence Discipline,2,2,0,L2,L2,process_signal
+D4,D4.1,Agent Runtime & Permissions,2,3,1,L2,L3,process_signal
+D4,D4.2,AI-Accessible Engineering Context,2,2,0,L2,L2,process_signal
+D4,D4.3,Automated Verification & Toolchain Integration,2,2,0,L2,L2,process_signal
+D5,D5.1,Collaboration Duties & Independent Verification,2,2,0,L2,L2,process_signal
+D5,D5.2,HITL/HOTL/HOOL Risk Routing,1,2,1,L1,L2,process_signal
+D5,D5.3,Accountability & Audit Trails,2,2,0,L2,L2,process_signal
+D6,D6.1,Practice Champions & Training,2,3,1,L2,L3,process_signal
+D6,D6.2,Community & Knowledge Assets,2,3,1,L2,L3,process_signal
+D6,D6.3,Adoption Confidence & Behavior Change,2,3,1,L2,L3,process_signal

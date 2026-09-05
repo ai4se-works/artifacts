@@ -1,0 +1,7 @@
+pair_id,tp_before,tp_after,tp_delta_improve,ct1_p75_before,ct1_p75_after,ct1_speedup,ct1_reduction_pct,ct2_p75_before,ct2_p75_after,ct2_speedup,ct2_reduction_pct,signal_type
+Pair-1,49,100,1.040816,3.75,1.875,2,0.5,5.5,2.1,2.619048,0.618182,expert_estimate
+Pair-2,57,116,1.035088,3,1.5,2,0.5,5,3,1.666667,0.4,expert_estimate
+Pair-3,55,136,1.472727,4.75,1.75,2.714286,0.631579,6.5,2.625,2.47619,0.596154,expert_estimate
+Pair-4,45,90,1,4.875,2.75,1.772727,0.435897,6.875,3.375,2.037037,0.509091,expert_estimate
+Pair-5,50,88,0.76,4.5,2,2.25,0.555556,5,2.5,2,0.5,expert_estimate
+Pair-6,50,100,1,4,2,2,0.5,5,3,1.666667,0.4,expert_estimate
