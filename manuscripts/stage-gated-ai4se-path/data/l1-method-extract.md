@@ -1,11 +1,11 @@
 # L1 method extract (public inspection card)
 
-**Purpose.** This file is a **self-contained method card** for external readers of the stage-gated AI4SE path manuscript. It supports inspection of the claim that Explore produced a **citable L1 method** (handbook v1.0 frozen at gate), without publishing the full client-facing deliverable.
+**Purpose.** This file is a **self-contained method card** for external readers of the AI4SE operating-stack manuscript. It supports inspection of the claim that Explore produced a **citable L1 method** (handbook v1.0 frozen at Explore closeout), without publishing the full client-facing deliverable.
 
 **What this is**
 
 - A **rewritten academic extract** of a consulting-authored Spec-Driven Development (SDD) end-to-end method guide (v1.0), as instantiated during Org-A Explore.
-- Framed for gate inspection: principles, artifact chain, process stages, quality gates, and a few **normative clauses**.
+- Framed for closeout inspection: principles, artifact chain, process stages, quality gates, and a few **normative clauses**.
 
 **What this is not**
 
@@ -17,9 +17,9 @@
 
 ---
 
-## 1. Why a method card (maps to G1 “playbook citable”)
+## 1. Why a method card (maps to Explore-closeout “playbook citable”)
 
-At Explore closeout, G1 asks whether a method can be **shown and referenced with gaps visible**. A brochure slogan is not enough; neither is an unreadable private dump. This card gives reviewers:
+At Explore closeout, management asks whether a method can be **shown and referenced with gaps visible**. A brochure slogan is not enough; neither is an unreadable private dump. This card gives reviewers:
 
 1. Proof of **depth** (chapter map of the frozen v1.0 guide).
 2. The **transferable kernel** (principles + artifact flow + 5+1 stages + three quality gates).
@@ -47,7 +47,7 @@ This map is the inspectable answer to “was there a real handbook, or only slid
 
 ## 3. Five first principles (transferable kernel)
 
-| # | Principle | One-line meaning for gate inspection |
+| # | Principle | One-line meaning for closeout inspection |
 |---|---|---|
 | 1 | **Spec as Source of Truth** | One authoritative Living Spec; disputes about “what the system should do” are settled there; code is a derived snapshot |
 | 2 | **Precision over Consensus** | Intent must be precise enough for machine execution; vague specs force model guessing |
@@ -90,18 +90,18 @@ Intent → Change Proposal
 |---|---|---|---|
 | 0 | Project baseline / harness bootstrap | By what rules does this project run? | — (checklist DoV) |
 | 1 | Intent discovery & proposal | What are we building; what is out of scope? | — |
-| 2 | Spec definition & align | What does “correct” look like? | **Align Gate (process G1)** |
+| 2 | Spec definition & align | What does “correct” look like? | **Align Gate** |
 | 3 | Design planning & breakdown | How do we implement it? | — |
-| 4 | Implementation, verification & feedback | Built to plan—is it right? | **Verify Gate (process G2)** |
+| 4 | Implementation, verification & feedback | Built to plan—is it right? | **Verify Gate** |
 | 5 | Codify, archive & evolve | How do we retain learning / keep Living Spec consistent? | **Merge & Archive Gate (process G3)** |
 
 | Process gate | Intercepts | Pass intuition |
 |---|---|---|
-| Align (G1) | Directional / spec ambiguity errors | Spec complete, precise, verifiable; no conflict with Living Spec |
-| Verify (G2) | Execution / fidelity errors | Implementation matches Spec; independent verification evidence complete |
+| Align | Directional / spec ambiguity errors | Spec complete, precise, verifiable; no conflict with Living Spec |
+| Verify | Execution / fidelity errors | Implementation matches Spec; independent verification evidence complete |
 | Merge & Archive (G3) | Consistency / drift errors | Delta merged; Living Spec self-consistent; lessons codified |
 
-**Note on gate vocabulary.** These *process* gates (Align / Verify / Merge) live inside the method guide. The manuscript’s *transformation* gates (Explore closeout G1 / Scale-entry G2) are organizational admission controls defined in [`gate-rubric.md`](gate-rubric.md). Both layers matter; they must not be conflated.
+**Note on vocabulary.** These *process* gates (Align / Verify / Merge) live inside the method guide. The manuscript’s *organizational* decisions (Explore closeout / Scale admission) are defined in [`gate-rubric.md`](gate-rubric.md). Both layers matter; they must not share numbering or be conflated.
 
 ---
 
@@ -109,21 +109,21 @@ Intent → Change Proposal
 
 The following clauses are **paraphrased / redacted** for public release. They illustrate the kind of normative content that made L1 *citable* at Explore—not a verbatim dump of client handbook text.
 
-| ID | Normative expectation | Why it matters at Explore G1 |
+| ID | Normative expectation | Why it matters at Explore closeout |
 |---|---|---|
 | N1 | Every accepted increment must cite a Living Spec **delta identifier** (traceable change unit) | Makes the method chain auditable; blocks “code without a spec delta” |
 | N2 | A **human verifier** distinct from the apply/generation agent must be named for acceptance | Enforces human accountability + separation of duties |
 | N3 | **Refuse** “generated output equals verified” shortcuts (no AI self-attestation as the sole verification) | Blocks theater verification; aligns with Verification-over-Trust |
-| N4 | Until Align-gate (process G1) passes, implementation generation must not proceed as if the Spec were approved | Precision-before-speed; reduces rework economics |
+| N4 | Until Align Gate passes, implementation generation must not proceed as if the Spec were approved | Precision-before-speed; reduces rework economics |
 | N5 | Unmapped critical code (no Spec/delta linkage) is treated as suspect for hallucination review | Traceability as a quality skeleton |
 
 These clauses are the public counterpart of the manuscript’s illustrative L1 extract.
 
 ---
 
-## 7. Known v1 gaps → Consolidation (honesty for G1)
+## 7. Known v1 gaps → Consolidation (honesty for Explore closeout)
 
-Explore G1 can pass with a citable v1 **and** visible gaps. Gaps recorded for Stage-2 (not claimed fixed at closeout):
+Explore closeout can be met with a citable v1 **and** visible gaps. Gaps recorded for Stage-2 (not claimed fixed at closeout):
 
 | Gap class | Public description | Consolidation intent |
 |---|---|---|
@@ -143,4 +143,4 @@ Explore G1 can pass with a citable v1 **and** visible gaps. Gaps recorded for St
 | Executable stub honesty | [`l3-stub-map.md`](l3-stub-map.md) |
 | This method kernel | **this file** |
 
-**Reader takeaway.** The Explore gate did not require open-sourcing a client deliverable. It required a **citable method with inspectable structure, normative constraints, and declared gaps**—which this card is intended to demonstrate.
+**Reader takeaway.** Explore closeout did not require open-sourcing a client deliverable. It required a **citable method with inspectable structure, normative constraints, and declared gaps**—which this card is intended to demonstrate.

@@ -1,7 +1,13 @@
-# Gate rubric and Org-A outcomes
+# Stage criteria and Org-A outcomes
 
-Self-contained admission contract for the stage-gated AI4SE path.
+Self-contained closeout/admission contract for the AI4SE operating stack and
+Explore–Consolidation–Scale adoption rhythm.
 No private repository paths are required to read this file.
+
+**Terminology.** Organizational decisions use **Explore closeout (EC)** and
+**Scale admission (SA)**. Process-level Align / Verify / Merge reviews in the
+method pack may still be called *gates*; they are a different control loop and
+do not share EC/SA numbering.
 
 ## Stages (dependency-linked)
 
@@ -13,14 +19,14 @@ No private repository paths are required to read this file.
 
 Calendar dates do **not** override unmet exit criteria.
 
-## Gate tests (G1 / G2)
+## Stage criteria (EC / SA)
 
-| Gate | Decision question | Positive outcome means | Negative / hold means |
+| Decision | Decision question | Positive outcome means | Negative / hold means |
 |---|---|---|---|
-| **G1 — Explore closeout** | Can management cite a method–asset packet with honest readiness and a discussable next path? | Open Consolidation; record Scale as conditional | Stay in Explore / remediate packet |
-| **G2 — Scale entry** | Can a receiving team inherit a teachable method with a runnable main chain and named ownership? | Admit Scale wave under guardrails | Hold Scale; continue Consolidation |
+| **EC — Explore closeout** | Can management cite a method–asset packet with honest readiness and a discussable next path? | Open Consolidation; record Scale as conditional | Stay in Explore / remediate packet |
+| **SA — Scale admission** | Can a receiving team inherit a teachable method with a runnable main chain and named ownership? | Admit Scale wave under guardrails | Hold Scale; continue Consolidation |
 
-### G1 criteria (method–asset gate)
+### EC criteria (method–asset closeout)
 
 | Criterion | Inspectable question |
 |---|---|
@@ -30,7 +36,7 @@ Calendar dates do **not** override unmet exit criteria.
 | Effectiveness / maturity signals bounded | Are signals reported with explicit limits (expert-estimate / process ≠ platform-measured ROI)? |
 | Next-stage path discussable | Is Consolidation → conditional Scale concrete enough for management discussion? |
 
-### G2 criteria (stricter transfer gate)
+### SA criteria (stricter transfer admission)
 
 | Criterion | Inspectable question |
 |---|---|
@@ -40,9 +46,9 @@ Calendar dates do **not** override unmet exit criteria.
 
 ## Org-A recorded outcomes (frozen for this manuscript)
 
-| Gate | Outcome | One-line disposition |
+| Decision | Outcome | One-line disposition |
 |---|---|---|
-| G1 Explore | **Passed** | End-to-end method run-through; initial playbook and countable opportunity assets; bounded signals; Consolidation opened |
-| G2 Scale entry | **Not met / hold** | Feasibility shown; replicability, seed coaches, and main-chain executable readiness not yet sufficient for Scale admission |
+| EC Explore closeout | **Met** | End-to-end method run-through; initial playbook and countable opportunity assets; bounded signals; Consolidation opened |
+| SA Scale admission | **Not met / hold** | Feasibility shown; replicability, seed coaches, and main-chain executable readiness not yet sufficient for Scale admission |
 
-**Anti-pattern stated in the manuscript:** pilot success ≠ Scale entry.
+**Anti-pattern stated in the manuscript:** pilot success ≠ Scale admission.

@@ -1,4 +1,4 @@
-# Data pack — stage-gated AI4SE path (reviewer-facing)
+# Data pack — AI4SE operating stack (reviewer-facing)
 
 Anonymized, **self-contained** evidence for the manuscript
 *From Pilot Evidence to Conditional Scale: An AI4SE Operating Stack for Mid-to-Large Organizations*.
@@ -13,9 +13,9 @@ readable without access to any private consulting repository.
 
 | Manuscript claim (inspectable) | File |
 |---|---|
-| G1 (Explore) pass / G2 (Scale entry) hold at Org-A | [`gate-rubric.md`](gate-rubric.md) |
+| Explore closeout (EC) met / Scale admission (SA) held at Org-A | [`gate-rubric.md`](gate-rubric.md) |
 | Stage goals and exit tests (Explore / Consolidation / Scale) | [`gate-rubric.md`](gate-rubric.md) |
-| L1 citable method kernel (principles, artifact chain, process gates, normative clauses, known gaps) | [`l1-method-extract.md`](l1-method-extract.md) |
+| L1 citable method kernel (principles, artifact chain, Align/Verify/Merge, normative clauses, known gaps) | [`l1-method-extract.md`](l1-method-extract.md) |
 | L1–L4 asset classes, outcomes, readiness boundaries | [`asset-ledger.csv`](asset-ledger.csv) |
 | Twelve opportunity themes; #5/#9 observation; aggregate 11+11 L2 counts | [`theme-index.csv`](theme-index.csv) + [`asset-ledger.csv`](asset-ledger.csv) (L2 row) |
 | L3 executable pack layout; stub vs ready on main chain | [`l3-stub-map.md`](l3-stub-map.md) |
@@ -39,7 +39,7 @@ The manuscript and [`asset-ledger.csv`](asset-ledger.csv) report **11 best pract
 [`theme-index.csv`](theme-index.csv) lists all **twelve** named themes with `released` vs `observation` status (#5 and #9 observation).
 Spec/BP file bodies are withheld; the CSV is for status inspection only.
 
-1. Read [`gate-rubric.md`](gate-rubric.md) for the admission contract and Org-A gate outcomes.
+1. Read [`gate-rubric.md`](gate-rubric.md) for the stage-criteria contract and Org-A EC/SA outcomes.
 2. Read [`l1-method-extract.md`](l1-method-extract.md) for the citable method kernel behind L1.
 3. Cross-check Table “asset ledger” claims against [`asset-ledger.csv`](asset-ledger.csv) and [`l3-stub-map.md`](l3-stub-map.md).
 4. Cross-check theme counts / observation flags against [`theme-index.csv`](theme-index.csv).

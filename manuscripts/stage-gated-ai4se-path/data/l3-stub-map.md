@@ -27,8 +27,8 @@ prompts.
 |---|---|
 | Catalog existence | Yes — formal pack present at closeout |
 | Primary execution chain | Largely stubbed |
-| Inference forbidden at G1 | Directory tree ≠ deployable capability |
-| Consolidation assignment | Move primary chain stub → ready before G2 can pass |
+| Inference forbidden at Explore closeout | Directory tree ≠ deployable capability |
+| Consolidation assignment | Move primary chain stub → ready before Scale admission can be met |
 
 ## What reviewers can and cannot conclude
 
