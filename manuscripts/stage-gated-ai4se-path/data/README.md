@@ -15,6 +15,7 @@ readable without access to any private consulting repository.
 |---|---|
 | G1 (Explore) pass / G2 (Scale entry) hold at Org-A | [`gate-rubric.md`](gate-rubric.md) |
 | Stage goals and exit tests (Explore / Consolidation / Scale) | [`gate-rubric.md`](gate-rubric.md) |
+| L1 citable method kernel (principles, artifact chain, process gates, normative clauses, known gaps) | [`l1-method-extract.md`](l1-method-extract.md) |
 | L1–L4 asset classes, outcomes, readiness boundaries | [`asset-ledger.csv`](asset-ledger.csv) |
 | Twelve opportunity themes; #5/#9 observation; aggregate 11+11 L2 counts | [`theme-index.csv`](theme-index.csv) + [`asset-ledger.csv`](asset-ledger.csv) (L2 row) |
 | L3 executable pack layout; stub vs ready on main chain | [`l3-stub-map.md`](l3-stub-map.md) |
@@ -25,18 +26,24 @@ readable without access to any private consulting repository.
 
 ## What is NOT included
 
-- Full playbook text, opportunity Spec/BP bodies, or plugin source trees
+- Full playbook / operations handbook text (only the public method card in `l1-method-extract.md`)
+- Opportunity Spec/BP bodies, or plugin source trees
 - Client intranet materials, legal entity names, product brands, participant names
 - Raw workshop transcripts, photos, or unredacted change records
 - Companion measurement manuscript quantitative tables (see
   [`../ai4se-measurement-maturity/data/`](https://github.com/ai4se-works/artifacts/tree/main/manuscripts/ai4se-measurement-maturity/data))
 
-## How to use this pack
+## Aggregate L2 counts
+
+The manuscript and [`asset-ledger.csv`](asset-ledger.csv) report **11 best practices + 11 specifications** in the Explore release index.
+[`theme-index.csv`](theme-index.csv) lists all **twelve** named themes with `released` vs `observation` status (#5 and #9 observation).
+Spec/BP file bodies are withheld; the CSV is for status inspection only.
 
 1. Read [`gate-rubric.md`](gate-rubric.md) for the admission contract and Org-A gate outcomes.
-2. Cross-check Table “asset ledger” claims against [`asset-ledger.csv`](asset-ledger.csv) and [`l3-stub-map.md`](l3-stub-map.md).
-3. Cross-check theme counts / observation flags against [`theme-index.csv`](theme-index.csv).
-4. Cross-check the Org-A timeline figure against [`timeline.csv`](timeline.csv).
+2. Read [`l1-method-extract.md`](l1-method-extract.md) for the citable method kernel behind L1.
+3. Cross-check Table “asset ledger” claims against [`asset-ledger.csv`](asset-ledger.csv) and [`l3-stub-map.md`](l3-stub-map.md).
+4. Cross-check theme counts / observation flags against [`theme-index.csv`](theme-index.csv).
+5. Cross-check the Org-A timeline figure against [`timeline.csv`](timeline.csv).
 
 ## Citation
 
