@@ -30,4 +30,4 @@ After phase-one closeout, Org-A entered **consolidation** (method hardening / se
 - No participant or facilitator personal names; workshop groups are `Pair-1`…`Pair-6`.
 - Do not describe identifiable product features or customer-facing system names from the pilot vehicle.
 
-**Evidence:** E6 (background slice only); quantitative case numbers live in the companion measurement data pack (`manuscripts/ai4se-measurement-maturity/data/derived/`).
+**Evidence:** E6 (background slice only); quantitative case numbers from E1 → `public-data/derived/`.

@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
 """Extract anonymized derived CSVs from internal handoff xlsx (not shipped).
 
-Reads (only available in the private consulting workspace):
+Reads (relative to repo root):
   99-archive/handoff/03-evidence/maturity/ai4se-maturity-before-after-compare-visualization.xlsx
   99-archive/handoff/03-evidence/metrics/ai4se-effectiveness-measurement-summary.xlsx
 
-Writes next to this pack under derived/:
+Writes next to this pack under derived:
   maturity_domain_scores.csv
   maturity_capabilities.csv
   effectiveness_pair_summary.csv
   effectiveness_aggregate.csv
 
-Never copies the member-name column — pairs become Pair-1..Pair-6.
-Public consumers should use the committed derived/*.csv files; this script is
-maintainer-only.
+Never copies the 成员 (member name) column — pairs become Pair-1..Pair-6.
 """
 
 from __future__ import annotations
@@ -41,6 +39,8 @@ EFFECTIVENESS_XLSX = (
     / "ai4se-effectiveness-measurement-summary.xlsx"
 )
 OUT_DIR = Path(__file__).resolve().parents[1] / "derived"
+    REPO_ROOT / "docs/research/fse-icse-2027/public-data/derived"
+)
 
 # English labels aligned to Chinese 能力域 / 能力项 in the maturity workbook.
 DOMAIN_NAME_EN = {
