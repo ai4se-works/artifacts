@@ -1,7 +1,7 @@
-milestone_id,label,start_date,end_date,role
-kickoff,Kickoff / diagnosis & scenario lock,2026-06-30,2026-07-06,Baseline maturity; opportunity-theme plan; validation-vehicle lock
-W1,Workshop week 1,2026-07-07,2026-07-10,Engineering-foundation themes
-W2,Workshop week 2,2026-07-13,2026-07-17,Metrics and requirement-entry themes; midterm management showcase on 2026-07-17
-W3,Workshop week 3,2026-07-20,2026-07-24,Review / agent validation / test-engineering themes
-W4,Workshop week 4,2026-07-27,2026-07-31,Playbook authoring in parallel with delivery-track Spec validation
-closeout,Executive readout / Explore gate,2026-08-07,2026-08-07,G1 passed; Consolidation opened; G2 Scale entry not met
+milestone_id,label,approx_window,duration,role
+kickoff,Kickoff / diagnosis & scenario lock,late June–early July 2026,~1 week,Baseline maturity; opportunity-theme plan; validation-vehicle lock
+W1,Workshop week 1,early July 2026,~1 calendar week,Engineering-foundation themes
+W2,Workshop week 2,mid-July 2026,~1 calendar week (incl. midterm management showcase),Metrics and requirement-entry themes
+W3,Workshop week 3,mid-to-late July 2026,~1 calendar week,Review / agent validation / test-engineering themes
+W4,Workshop week 4,late July 2026,~1 calendar week,Playbook authoring in parallel with delivery-track Spec validation
+closeout,Executive readout / Explore gate,early August 2026,single closeout event (exact calendar day not required for inspection),G1 passed; Consolidation opened; G2 Scale entry not met

@@ -802,19 +802,20 @@ for the companion measurement study.
   flow/.style={->,thick}
 ]
 \node[event] (kickoff) {\textbf{Kickoff}\\late Jun./early Jul.\\diagnose and lock};
-\node[event,right=4mm of kickoff] (w1) {\textbf{W1}\\Jul. 7--10\\engineering base};
-\node[event,right=4mm of w1] (w2) {\textbf{W2}\\Jul. 13--17\\entry and metrics};
-\node[event,right=4mm of w2] (w3) {\textbf{W3}\\Jul. 20--24\\review and test};
-\node[event,right=4mm of w3] (w4) {\textbf{W4}\\Jul. 27--31\\playbook + validation};
-\node[event,right=4mm of w4] (close) {\textbf{Closeout}\\Aug. 7\\Explore passed};
+\node[event,right=4mm of kickoff] (w1) {\textbf{W1}\\early Jul.\\engineering base};
+\node[event,right=4mm of w1] (w2) {\textbf{W2}\\mid-Jul.\\entry and metrics};
+\node[event,right=4mm of w2] (w3) {\textbf{W3}\\mid/late Jul.\\review and test};
+\node[event,right=4mm of w3] (w4) {\textbf{W4}\\late Jul.\\playbook + validation};
+\node[event,right=4mm of w4] (close) {\textbf{Closeout}\\early Aug.\\Explore passed};
 \draw[flow] (kickoff) -- (w1);
 \draw[flow] (w1) -- (w2);
 \draw[flow] (w2) -- (w3);
 \draw[flow] (w3) -- (w4);
 \draw[flow] (w4) -- (close);
 \end{tikzpicture}
-\caption{Org-A Explore timeline.  The August 7 closeout passed the Explore
-gate and opened Consolidation; it did not pass Scale admission.}
+\caption{Org-A Explore timeline (week-level windows).  The early-August
+closeout passed the Explore gate and opened Consolidation; it did not pass
+Scale admission.}
 \label{fig:org-a-timeline}
 \end{figure*}
 
@@ -822,15 +823,15 @@ gate and opened Consolidation; it did not pass Scale admission.}
 The Explore phase followed a six-block arc (Fig.~\ref{fig:org-a-timeline}).
 Kickoff in late June or early
 July 2026 established the diagnosis, scenario lock, baseline maturity
-exercise, and opportunity-theme plan.  Workshop W1 (July 7--10) addressed
+exercise, and opportunity-theme plan.  Workshop W1 (early July) addressed
 engineering foundations: harness/context, knowledge, and brownfield
-specification-driven development.  W2 (July 13--17) covered metrics and
-requirements entry and ended with a midterm management showcase.  W3 (July
-20--24) addressed review, agent validation, and test engineering.  W4 (July
-27--31) ran two tracks in parallel: playbook v0.5 authoring and
-specification-based validation in the delivery track.  The executive readout
-on August 7 closed Explore, aligned the Consolidation path, and explicitly
-did not claim Scale admission.
+specification-driven development.  W2 (mid-July) covered metrics and
+requirements entry and included a midterm management showcase.  W3
+(mid-to-late July) addressed review, agent validation, and test engineering.
+W4 (late July) ran two tracks in parallel: playbook v0.5 authoring and
+specification-based validation in the delivery track.  An early-August
+executive readout closed Explore, aligned the Consolidation path, and
+explicitly did not claim Scale admission.
 
 % FACT-IV-C
 Across those four workshop weeks, the team worked through twelve opportunity
@@ -991,7 +992,7 @@ it is not used to introduce the companion paper's quantitative findings.
 \subsection{Phase-One Gate Decision}
 
 % FACT-IV-H
-At the August 7 executive readout, management applied five questions: whether
+At the early-August executive readout, management applied five questions: whether
 the playbook was citable; whether opportunity assets were countable; whether
 executable readiness was labeled ready or stub; whether effectiveness and
 maturity signals carried boundaries; and whether the next-stage path could
@@ -1017,7 +1018,7 @@ Explore achievement and the unresolved admission work at the same time.
 \subsection{Consolidation Started; Scale Entry Remained Conditional}
 
 % FACT-IV-J
-After the August 7 closeout, Org-A entered Consolidation, with an indicative
+After the early-August closeout, Org-A entered Consolidation, with an indicative
 one-to-two-month window from early August through the end of September 2026.
 The active work was framed as upgrading playbook v1 toward a standardized
 v2 and hardening the L3 main chain.  Seed coaches and ``everyone can teach''

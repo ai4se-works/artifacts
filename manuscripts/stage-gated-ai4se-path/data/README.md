@@ -19,7 +19,7 @@ readable without access to any private consulting repository.
 | L1–L4 asset classes, outcomes, readiness boundaries | [`asset-ledger.csv`](asset-ledger.csv) |
 | Twelve opportunity themes; #5/#9 observation; aggregate 11+11 L2 counts | [`theme-index.csv`](theme-index.csv) + [`asset-ledger.csv`](asset-ledger.csv) (L2 row) |
 | L3 executable pack layout; stub vs ready on main chain | [`l3-stub-map.md`](l3-stub-map.md) |
-| Org-A Explore timeline (~6 weeks → 2026-08-07 closeout) | [`timeline.csv`](timeline.csv) |
+| Org-A Explore timeline (~6 weeks; week-level windows, not day-exact) | [`timeline.csv`](timeline.csv) |
 | Org-A sector-type portrait (anonymized) | [`org-a-context.md`](org-a-context.md) |
 | Org-B recognition vignette bounds only | [`org-b-bounds.md`](org-b-bounds.md) |
 | Threat / boundary notes aligned with the manuscript | [`threats-note.md`](threats-note.md) |
