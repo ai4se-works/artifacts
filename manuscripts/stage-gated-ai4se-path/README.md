@@ -1,6 +1,6 @@
-# Manuscript: Stage-gated AI4SE path
+# Manuscript: AI4SE operating stack
 
-**Title:** From Pilot toward Conditional Scale: A Stage-Gated AI4SE Path for Mid-to-Large Software Organizations  
+**Title:** From Pilot Evidence to Conditional Scale: An AI4SE Operating Stack for Mid-to-Large Organizations  
 **Status:** `under review`  
 **Authors:** Juan Qiu, Qilong Yan (Inspire Group)  
 **Partners:** anonymized as Org-A, Org-B (no client co-authors)
