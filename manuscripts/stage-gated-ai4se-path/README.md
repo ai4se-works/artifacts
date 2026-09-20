@@ -10,7 +10,7 @@
 | Path | Description |
 |------|-------------|
 | [`paper/`](paper/) | LaTeX sources, IEEE class files, compiled PDF |
-| [`data/`](data/) | Reviewer-facing evidence pack (gate rubric, ledger, themes, L3 map, timeline) |
+| [`data/`](data/) | Reviewer-facing evidence pack (stage criteria, ledger, themes, L3 map, timeline) |
 
 ## Data Availability URL
 
