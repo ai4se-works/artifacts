@@ -24,8 +24,7 @@
 \title{From Pilot Evidence to Conditional Scale: An AI4SE Operating Stack for Mid-to-Large Organizations%
 \thanks{J.~Qiu is Principal AI4SE Consultant at Inspire Group (Ph.D., Software Engineering, Tongji University; 18+ years in software engineering, R\&D productivity, and enterprise architecture).
 Q.~Yan is AI4SE Engineering Advisor at Inspire Group (M.S., Computer Science, Sichuan University; 10+ years in enterprise architecture, DevOps, and AI-agent engineering).
-Inspire Group is a technology-services firm formed from the former Thoughtworks China business after its acquisition by Hillhouse Capital (announced 2025); the Inspire authors facilitated the Org-A and Org-B engagements.
-Industrial partners remain anonymized (Org-A, Org-B); no client co-authors.}}
+Inspire Group is a technology-services firm formed from the former Thoughtworks China business after its acquisition by Hillhouse Capital (announced 2025).}}
 
 % Inspire Group authors only; client declined co-authorship (2026-09 decision). Body keeps Org-A / Org-B anonymization + sector-type portraits.
 \author{
@@ -38,27 +37,26 @@ Emails: juan.qiu@inspiregroup.com,~qlyan@inspiregroup.com}
 \maketitle
 
 \begin{abstract}
-Mid-to-large software organizations---multi-site engineering groups with enough
+Mid-to-large software organizations (multi-site engineering groups with enough
 process inertia and cross-team handoff that a tool trial does not diffuse by
-itself---often equate an AI-for-software-engineering (AI4SE) assistant rollout,
+itself) often equate an AI-for-software-engineering (AI4SE) assistant rollout,
 or a completed pilot increment, with readiness to scale.
 As generation cost falls, scarce capacity shifts from coding throughput to
-\emph{definition and verification}---knowing what is correct and proving it.
-We present an AI4SE operating stack for that setting---a layered reading of
+\emph{definition and verification}: knowing what is correct and proving it.
+We present an AI4SE operating stack for that setting: a layered reading of
 classical software engineering together with Lean/Agile team modes whose
 primary value object shifts from stories toward specification-driven
-\emph{change requests}---and an Explore, Consolidation, and conditional Scale
-adoption rhythm in which stage closeout and admission are evidence reviews
-rather than calendar events.
+\emph{change requests}, plus an Explore, Consolidation, and conditional Scale
+adoption rhythm in which stage closeout and admission are evidence reviews,
+not calendar events.
 At Org-A, a six-week Explore engagement produced a citable method, countable
 opportunity assets, and a readiness-labeled executable-asset ledger;
 management met Explore closeout and opened Consolidation, but did not
 admit Scale.
-As a secondary recognition observation, Org-B---a manufacturing enterprise
-whose incumbent process is Integrated Product Development (IPD)---selected
-the same stack and rhythm after co-located alternatives were judged
-infeasible and is now in a mid-July to mid-September 2026 Explore that
-remains open.
+As a secondary recognition observation, Org-B (manufacturing; IPD) selected
+the same path after alternatives were judged infeasible; at briefing it was
+in late Explore with a hurried concurrent harden-and-diffuse
+\emph{intent}, which we do not claim as Scale admission.
 The paper contributes the operating stack and the Org-A stage-and-asset
 record; Org-B supplies only a decision-fact vignette, not a second completed
 case.
@@ -79,20 +77,24 @@ to coding assistants, or completion of a facilitated pilot, with a
 scale-ready organizational capability.
 The first produces local tool use; the second may produce a one-off
 demonstration.
-Neither, by itself, answers whether a new team can run a complete cycle under
+Neither answers whether a new team can run a complete cycle under
 agreed guardrails.
 Guidance on developer productivity already warns that a single activity or
 throughput slogan is a poor decision aid~\cite{Forsgren2021SPACE}.
-A sharper industrial reading is that AI coding assistance compresses
+In industrial settings, AI coding assistance compresses
 \emph{implementation} cost while amplifying errors that originate in vague
 intent, weak specifications, and unverified agent output: the bottleneck
 moves toward \emph{definition scarcity} and verification capacity.
+A large gain confined to build/code generation is therefore not evidence that
+the end-to-end delivery cycle---or Scale admission---has improved by the same
+ratio.
 The corresponding transformation error is to treat a well-received pilot as
 authorization for organization-wide diffusion.
 
-We present an AI4SE operating stack---and an Explore--Consolidation--Scale
-adoption rhythm---for advancing industrial AI4SE without treating calendar
-completion as admission---validated primarily by Org-A's recorded Explore
+We present an AI4SE operating stack and an Explore--Consolidation--Scale
+adoption rhythm for advancing industrial AI4SE without treating calendar
+completion as admission.
+The account is validated primarily by Org-A's recorded Explore
 closeout and Scale-admission dispositions and asset ledger, not by a method
 brochure alone.
 A stage has a purpose, work products, and an observable exit that is also an
@@ -105,8 +107,8 @@ cycle independently.
 Org-A supplies the primary longitudinal evidence; Org-B supplies only a
 bounded recognition vignette (local adoption after infeasible alternatives,
 Explore still open).
-The transferable object is the stack-plus-stage-criteria contract---not a tool catalog
-and not a completed rollout.
+The transferable object is the stack-plus-stage-criteria contract.
+It is neither a tool catalog nor a completed rollout.
 
 We organize the experience around three questions:
 \begin{itemize}
@@ -117,8 +119,9 @@ How can an industrial AI4SE path from pilot toward scale be designed
 What assets, signals, and admission boundaries did Org-A's completed Explore
 produce in support of Consolidation and of only-conditional Scale?
 \item \textbf{Q3.}
-While Org-B is still in Explore, what does a local adoption decision after
-infeasible alternatives show---and what does it not show?
+While Org-B is in late Explore, what does a local adoption decision after
+infeasible alternatives---and a stated concurrent harden-and-diffuse
+intent---show, without treating intent as Scale admission?
 \end{itemize}
 
 \textbf{Methodological stance.}
@@ -137,22 +140,24 @@ at either organization.
 paradigm$\rightarrow$SDD with story$\rightarrow$change-request value objects) plus an
 Explore--Consolidation--Scale adoption rhythm with closeout/admission criteria
 (citable / runnable / transferable readiness; stub~$\neq$~ready);
-(2)~Org-A evidence that Explore completed, Consolidation started, and Scale
-admission was not met---stated as a three-layer feasibility argument rather
-than as assumed diffusion;
-(3)~a bounded Org-B decision fact only: the same stack and rhythm were selected after
-alternative approaches were judged infeasible, under an IPD constraint, with
-Explore still open (not a second completed stage-criteria packet).
+(2)~Org-A evidence that Explore completed, a client-operated Consolidation
+midpoint was observed, and Scale admission was not met---stated as a
+three-layer feasibility argument rather than as assumed diffusion;
+(3)~a bounded Org-B recognition vignette: the same stack and rhythm were
+selected after alternative approaches were judged infeasible under an IPD
+constraint; at author briefing Explore was late / nearing closeout, with a
+stated concurrent harden-and-diffuse intent that is \emph{not} claimed as
+Scale admission (not a second completed Consolidation packet).
 
 Bounded Explore-phase effectiveness and maturity signals appear here only as
 stage-criteria inputs with stated limits.
-A companion measurement manuscript (separate contribution; dual-lens labeled
-reporting of capability and delivery signals at Org-A) owns how those signals
-are stratified and later promoted from estimate to platform measurement; we
-do not reproduce its tables or claim concurrent review of that companion
-manuscript here.\footnote{Companion status at freeze: authoring for a
-peer-reviewed software-engineering venue; unit of analysis $=$ measurement
-scheme, not the operating stack and adoption rhythm.  No Org-A workshop or maturity numbers from
+A companion measurement manuscript (separate contribution; dual-track
+maturity-and-measurement assessment of capability and delivery signals at Org-A)
+owns how those signals are stratified and later promoted from estimate to
+platform measurement; we do not reproduce its tables or claim concurrent review
+of that companion manuscript here.\footnote{Companion status at freeze: authoring for a
+peer-reviewed software-engineering venue; unit of analysis $=$ honest
+maturity-and-measurement assessment, not the operating stack and adoption rhythm.  No Org-A workshop or maturity numbers from
 that manuscript are imported here.}
 
 Section~\ref{sec:background} supplies the conceptual overlay.
@@ -171,8 +176,8 @@ takeaways, threats, related work, and the claim ceiling.
 The operating stack and adoption rhythm are the contribution of this paper.
 This section supplies a compact vocabulary for \emph{why adoption is staged}
 and \emph{what the stack carries}.
-It is not a second framework to be evaluated on its own, and it is not a
-restatement of a practitioner slide deck.
+It is background vocabulary only: not a second framework to evaluate on its
+own, and not a restatement of a practitioner slide deck.
 
 \subsection{Domain Fit: Why Exploration Is Not Instant Scale}
 \label{sec:cynefin}
@@ -439,54 +444,17 @@ Without it, a hardened harness still has no authorized receiving team.
 
 Industrial harness writing emphasizes bounded contexts among users, coding
 agents, and models~\cite{Fowler2026Harness}.
-Figure~\ref{fig:harness-certainty} is our AI4SE reading of that idea for
-transformation work: organizational certainty does not live in the model
-alone.
-We write the staged enablement object as a paradigm-conditioned composition
-\begin{equation}
-\mathcal{H}^{p}(x)
-=
-\mathrm{UserHarness}^{p}\!\big(
-\mathrm{CodingAgent}^{p}\!\big(
-\mathrm{Model}(x)
-\big)
-\big),
-\label{eq:harness-compose}
-\end{equation}
-where \(p\) is the governing delivery paradigm (for example
-spec-driven development versus loosely guided ``vibe coding,'' or an agile
-variant).
-The inner \(\mathrm{Model}\) is comparatively stable across engagements;
-the outer two layers are where Explore must freeze inspectable structure and
+Figure~\ref{fig:harness-certainty} is our AI4SE reading: organizational
+certainty does not live in the model alone.
+A governing delivery paradigm \(p\) (for example SDD versus loosely guided
+``vibe coding'') selects outer user-harness and coding-agent contracts around
+a comparatively stable model; Explore must freeze inspectable structure and
 Consolidation must harden ownership.
-The same model under different \(p\) therefore yields different
-\(\mathcal{H}^{p}\): an SDD-oriented user harness privileges contracts,
-acceptance checks, and reviewable agent recipes, whereas a vibe-oriented
-harness privileges fast prompt--edit loops and lighter formal Align/Verify/Merge checks.
-Neither is universally ``correct''; the stage packet must record which \(p\)
-was chosen and what evidence that choice requires.
-
-Operationally, each outer layer is itself a composition of smaller units
-around a frozen model operator \(M\):
-\begin{equation}
-\mathcal{H}_{\mathrm{single}}(x)
-=
-h_{k}\!\big(\cdots h_{1}\big(M(h_{0}(x))\big)\cdots\big),
-\label{eq:harness-layers}
-\end{equation}
-with \(h_{0}\) assembling context and guides, \(h_{1}\) parsing and schema
-checks, and later \(h_{i}\) covering tools, permissions, sensors, and
-feedback.
-\emph{Agentic engineering} is not a fourth paradigm competing with SDD or
-vibe coding; it is the engineering style that turns a chosen \(p\) into
-composable, executable, and verifiable AI assets---skills, subagents,
-commands, rules, and hooks---inside \(\mathrm{UserHarness}^{p}\) and
-\(\mathrm{CodingAgent}^{p}\).
-Method assets (playbooks, SDD contracts, starter kits) feed those outer
-layers; they do not replace the model.
-The harness must remain an open class across SDD stacks (for example
-OpenSpec-, Superpowers-, or Spec-Kit-style frameworks, and future peers),
-not a lock-in to one template---a constraint Org-B makes explicit in
+\emph{Agentic engineering} is not a fourth paradigm; it composes executable
+assets (skills, commands, rules, hooks) inside those outer layers.
+Method assets feed the harness; they do not replace the model.
+The harness remains an open SDD-stack class (OpenSpec / Superpowers /
+Spec-Kit style examples, and peers)---a constraint Org-B makes explicit in
 Section~\ref{sec:org-b}.
 
 \begin{figure}[t]
@@ -495,10 +463,9 @@ Section~\ref{sec:org-b}.
   font=\scriptsize,
   >=Latex
 ]
-% Top: nested certainty layers (full width; no side callout)
 \node[
   draw, thick, rounded corners=2pt,
-  minimum width=0.92\columnwidth, minimum height=34mm,
+  minimum width=0.92\columnwidth, minimum height=28mm,
   align=center, fill=white
 ] (user) {};
 \node[anchor=north west, font=\scriptsize\bfseries]
@@ -509,44 +476,37 @@ Section~\ref{sec:org-b}.
 
 \node[
   draw, thick, rounded corners=2pt,
-  minimum width=0.62\columnwidth, minimum height=17mm,
+  minimum width=0.62\columnwidth, minimum height=14mm,
   align=center, fill=white
-] (agent) at ([yshift=2.8mm]user.center) {};
+] (agent) at ([yshift=2mm]user.center) {};
 \node[anchor=north west, font=\scriptsize\bfseries]
   at ([xshift=2pt,yshift=-1.5pt]agent.north west) {Coding agent\(^{p}\)};
 
 \node[
   draw, thick, rounded corners=1.5pt,
-  minimum width=0.30\columnwidth, minimum height=7.5mm,
+  minimum width=0.30\columnwidth, minimum height=6.5mm,
   align=center, fill=white, font=\scriptsize\bfseries
 ] (model) at (agent.center) {Model \(M\)};
 
-% Bottom: paradigm $p$ (replaces former method-assets strip)
 \node[
   draw, dashed, rounded corners=1pt,
-  align=center, inner sep=3pt,
+  align=center, inner sep=2.5pt,
   text width=0.92\columnwidth,
-  below=3.5mm of user
+  below=2.5mm of user
 ] (paradigm) {%
-  \textbf{Paradigm \(p\)} governs \(\mathcal{H}^{p}\):\,
-  SDD / vibe / agile --- same \(M\), different outer harness contracts};
+  \textbf{Paradigm \(p\)}: SDD / vibe / agile --- same \(M\), different outer contracts};
 \draw[->,thick] (paradigm) -- (user.south);
 \end{tikzpicture}
 \caption{Certainty boundary for AI4SE enablement (conceptual adaptation of
 harness bounded-context thinking~\cite{Fowler2026Harness}).
-Top: nested layers realizing~(\ref{eq:harness-compose}).
-Bottom: paradigm \(p\) selects the outer contracts
-(Eq.~(\ref{eq:harness-layers})); method assets feed those outer units.
+Nested layers around model \(M\); paradigm \(p\) selects outer contracts.
 Agentic engineering composes them---it is not a competing fourth paradigm.}
 \label{fig:harness-certainty}
 \end{figure}
 
-Skipping Consolidation typically leaves SDD prose and a stubbed harness in
-the hands of a new team---the failure mode Section~\ref{sec:path} names as
-equating a pilot with scale.
-The conceptual layer therefore explains \emph{why} stage criteria ask for method,
-asset, ownership, and transfer evidence; it does not add a parallel
-transformation method.
+Skipping Consolidation typically leaves SDD prose and a stubbed harness with
+a new team---the failure mode Section~\ref{sec:path} names as equating a
+pilot with scale.
 
 \section{Adoption Rhythm: Explore to Conditional Scale}
 \label{sec:path}
@@ -948,8 +908,8 @@ could not satisfy Scale admission.
 
 The closeout inventory was organized into four layers (Table
 \ref{tab:asset-readiness}).  The layers distinguish descriptive guidance,
-reusable opportunity knowledge, executable support, and evidence.  More
-importantly, the ledger records readiness separately from existence; a
+reusable opportunity knowledge, executable support, and evidence.
+The ledger records readiness separately from existence; a
 catalog entry is not treated as a deployable capability.
 
 \begin{table*}[t]
@@ -1087,44 +1047,51 @@ it was not ready for broad diffusion, or a scale success because it completed
 its planned activities.  The stage-path account preserves the observed
 Explore achievement and the unresolved admission work at the same time.
 
-\subsection{Consolidation Started; Scale Entry Remained Conditional}
+\subsection{Consolidation Midpoint; Scale Entry Remained Conditional}
 
 % FACT-IV-J
-After the early-August closeout, Org-A entered Consolidation, with an indicative
-one-to-two-month window from early August through the end of September 2026.
+After Explore closeout, Org-A entered Consolidation for an indicative
+one-to-two-month hardening window (stage duration, not a calendar gate).
 The active work was framed as upgrading playbook v1 toward a standardized
 v2 and hardening the L3 main chain.  Seed coaches and ``everyone can teach''
 were capability targets and the Stage-2 exit criterion; they were not
 reported as achieved at Explore closeout.
 
 % FACT-IV-K
-A consulting-side training and certification design also described
-Foundation, Practitioner, and Seed Coach tracks and a team-readiness
-certification concept.  It was a cross-customer capability-preparation
-artifact at design-specification status: courseware, item bank, and learning
-platform implementation were pending.  It therefore corroborates that scale
-enablement was being designed, but it is not evidence that Org-A executed
+A consulting-side training design (Foundation, Practitioner, Seed Coach)
+existed at specification status only; courseware and platform work were
+pending.  It shows scale enablement was being designed, not that Org-A ran
 training waves.
 
 % FACT-IV-L
-The resulting case posture is bounded but operationally useful.  Layer 1 of
-the feasibility argument was in place because stages and closeout/admission criteria had been
-defined.  Layer 2 was observed because Org-A completed an end-to-end Explore
-cycle and met Explore closeout.  Layer 3 remained conditional because Scale admission had not been
-met: later Scale admission depended on the team-can-teach result, named
-owners, a hardened starter kit, and sponsor support.  An indicative October
-calendar horizon was subordinate to those conditions.  No new-team
-self-run, wave rollout, or organization-wide adoption was evidenced at the
-freeze point.
+The resulting posture is bounded.  Layers 1--2 held (stages defined; Explore
+closeout met).  Layer 3 remained conditional: Scale admission still needed
+team-can-teach, named owners, a hardened starter kit, and sponsor support.
+No new-team self-run, wave rollout, or organization-wide adoption was
+evidenced at the freeze point.
+
+% FACT-IV-M
+A Consolidation midpoint observation showed the client team operating the
+method stack on real demand without on-site consultants.
+Over a five-week cumulative slice, public process counts recorded 15
+requirements, 18 changes, and 8 finished changes (process signals, not ROI).
+All 18 changes produced specifications via the mandatory \texttt{/sdd} path.
+% FACT-IV-N
+Honest gaps remained in the method-pack Align/Verify reviews (not
+organizational Explore-closeout / Scale-admission decisions): verification
+(Verify) had human sign-off but no Reject/Conditional records yet;
+spec-review (Align) duration ran above playbook expectation; one
+AI-orchestration role was still hardening.
+Self-correction had started (client-run retrospective, toolchain self-fix,
+earlier estimation, Playbook~v2 revision list) but was not finished.
+Scale remained conditional on Consolidation exit---not Consolidation
+acceptance, and not Scale admission.
 
 Org-A thus illustrates why movement from pilot evidence toward conditional
-Scale is a managed transition rather than a retrospective relabeling of
-pilot success.  The case supplies
-evidence for feasibility, asset creation, and the start of hardening.  It
-also supplies explicit negative evidence---stubs, missing transfer proof, and
-unmet prerequisites---that prevented an unsupported Scale claim.  A later
-assessment can apply Scale admission to those same declared conditions without changing
-the meaning of the Explore result.
+Scale is a managed transition: Explore feasibility and assets, a
+client-operated Consolidation midpoint with disclosed gaps, and explicit
+negative evidence that kept Scale conditional.  Later Scale admission can
+reuse those same declared conditions without rewriting the Explore result.
 
 \section{Case Org-B}
 \label{sec:org-b}
@@ -1155,8 +1122,8 @@ delivery status explicitly.
 \subsection{Adoption After Infeasible Alternatives}
 
 % FACT-V-C
-From about mid-July through mid-August 2026, other co-located consulting
-approaches led early exploration.
+During an initial co-located alternatives period, other consulting approaches
+led early exploration.
 Org-B concluded that those AI4SE transformation approaches were not feasible
 for its setting and selected the operating stack and adoption rhythm described here as the
 primary Explore method.
@@ -1165,23 +1132,24 @@ We do not name the alternative providers, and we do not present a competitive
 scorecard.
 
 % FACT-V-D
-From that transition through late August 2026, this team has been guiding
-multiple pilot teams through product research-and-development process
-analysis under the path.
-The calendar Explore window is mid-July to mid-September 2026.
-As of the manuscript freeze (late August 2026), Explore remains in progress.
-We do not write Org-B as Explore-closed, Consolidation-complete, or
-organization-wide scaled.
+After that method switch, this team has been guiding multiple pilot teams
+under the path.
+At author briefing, Org-B was in late Explore (nearing closeout; not written
+as a formal closeout pass).
+Its stated intent is more hurried than Org-A: pilot hardening in parallel
+with gradual additional-team enablement under controlled Scale pacing.
+We record that as adoption intent---not Scale admission or org-wide rollout.
 
 \subsection{Multi-Mode Pilots under an IPD Constraint}
 
 % FACT-V-E
 The Explore wave intentionally samples heterogeneous software modes rather
-than a single representative team embedded software; internal-use application development; large, complex
-enterprise business systems; and AI-agent-oriented development.
+than a single representative team: embedded software; internal-use application
+development; large, complex enterprise business systems; and AI-agent-oriented
+development.
 Mode diversity is a sampling design for this Explore wave, intended to
 exercise heterogeneous delivery constraints inside one organization.
-It is not a completed mode-by-mode outcome set, and it is not evidence of
+It is neither a completed mode-by-mode outcome set nor evidence of
 enterprise rollout or of a multi-enterprise sample.
 
 \subsection{Harness Intent, Scope, and Vignette Bound}
@@ -1200,15 +1168,9 @@ freeze; Goals~3--4 (training/certification and seed coaches) are
 scale-preparation items, not observed Consolidation/Scale outcomes; Goal~5
 is measurement-scheme design only (no Org-B numbers here).
 
-As a recognition vignette, Org-B shows only that an IPD manufacturer can
-record a local feasibility decision and start a multi-mode Explore under
-harness-portability constraints.
-It does not show that alternatives failed in general, that Explore closed,
-that deliverables were accepted, or that Consolidation or organization-wide
-scale has started.
-Concrete negative process evidence at freeze: closeout/admission host reviews inside IPD
-are not yet mapped; that absence is an Explore design debt, not a completed
-IPD$\times$AI4SE rewrite.
+As a recognition vignette, Org-B shows a feasibility switch, late multi-mode
+Explore, and concurrent-rhythm intent under IPD---not formal Explore closeout
+pass, Org-A-style Consolidation, or Scale admission.
 
 \section{Discussion}
 \label{sec:discussion}
@@ -1217,11 +1179,13 @@ IPD$\times$AI4SE rewrite.
 
 Org-A and Org-B occupy different positions on the same path
 (Table~\ref{tab:a-b-contrast}), with unequal evidence depth.
-Org-A is the primary case: Explore completed, Consolidation started, Scale
-admission withheld, with an in-repo ledger and stage packet.
+Org-A is the primary case: Explore completed, a client-operated Consolidation
+midpoint observed, Scale admission withheld, with an in-repo ledger and stage
+packet.
 Org-B is a secondary recognition vignette: the path was selected after
-alternatives failed a local feasibility test, and Explore remains open under
-IPD.
+alternatives failed a local feasibility test; Explore was late / nearing
+closeout at briefing, with a stated concurrent harden-and-diffuse intent
+under IPD---not a second completed Consolidation case.
 The shared path vocabulary can be named in more than one process heritage;
 that does not make Org-B a second completed case.
 
@@ -1234,7 +1198,7 @@ that does not make Org-B a second completed case.
 \toprule
  & \textbf{Org-A} & \textbf{Org-B} \\
 \midrule
-Calendar & $\sim$6-week Explore finished; Consolidation started & $\sim$2-month Explore, mid-July--mid-September; in progress \\
+Stage posture & $\sim$6-week Explore finished; Consolidation midpoint (client-operated); Scale admission held & Late Explore / nearing closeout; concurrent harden-and-diffuse \emph{intent} (Scale admission not claimed) \\
 Process & Multi-team agile; retained quality controls & IPD incumbent; path must adapt \\
 Pilot shape & Enablement plus validation vehicle & Multi-mode team sample in one wave \\
 Adoption & Sponsored enablement; Explore closeout met / Scale admission held & Method switch after infeasible alternatives \\
@@ -1250,15 +1214,15 @@ the path dominates unnamed alternatives in general, and not a claim that
 Org-B has already produced Org-A's L1--L4 ledger.
 IPD remains a stated incumbent constraint: this paper does not exhibit
 which IPD reviews will host Explore closeout or Scale admission at Org-B, and it does not invent
-mid-September Explore closeout status.
+Explore closeout status beyond the freeze used here.
 
 Classical product Stage-Gate practice already separates phases with business-case
 reviews~\cite{Cooper1990StageGate}.
 The incremental experience recorded here is narrower: an AI4SE admission
 contract that treats a stubbed executable chain as Consolidation work,
 publishes a withheld Scale decision beside a passed Explore closeout, and
-treats a second organization's still-open Explore as recognition rather
-than as a completed case.
+treats a second organization's late Explore and concurrent-rhythm
+\emph{intent} as recognition rather than as a completed case.
 We do not claim a new general Stage-Gate theory.
 
 \subsection{Manager Takeaways (Actionable)}
@@ -1283,17 +1247,17 @@ Name intent/spec/orchestration/verification owners, designate seed coaches,
 and ship a starter kit another team can run; keep unmet Scale-admission items on a public
 hold list.
 \item \textbf{Keep negative evidence visible.}
-An unmet Scale admission, an in-progress Explore, and unaccepted deliverables are
-decision inputs---not narrative failures to hide.
+An unmet Scale admission, a late Explore without formal closeout pass, and
+unaccepted deliverables are decision inputs---not narrative failures to hide.
 \end{enumerate}
 
 \subsection{Boundary with the Measurement Companion}
 
 This paper uses bounded effectiveness and maturity materials only as
 qualitative stage-criteria inputs (Org-A L4; Org-B Goal~5 as scheme design).
-The companion measurement paper's unit of analysis is a dual-lens reporting
-scheme---labeled capability and delivery signals at Org-A---not the
-operating stack and adoption rhythm.
+The companion measurement paper's unit of analysis is dual-track
+maturity-and-measurement assessment---labeled capability and delivery signals
+at Org-A---not the operating stack and adoption rhythm.
 The two manuscripts share a short anonymized Org-A context and the same
 enablement window; they do not share main figures, and we do not import
 that paper's tables or treat its workshop or maturity numbers as results of
@@ -1303,168 +1267,90 @@ the path.
 \label{sec:threats}
 % EVIDENCE: ../00-shared-evidence/threats-to-validity.md (Paper B subsection)
 
-\textbf{External validity.}
-The primary longitudinal case is a single organization (Org-A).
-Org-B is an in-progress Explore at manuscript freeze, not a balanced
-second site with a matching stage-criteria packet.
-Mode diversity inside Org-B improves within-organization coverage; it does
-not create a multi-enterprise sample.
-
-\textbf{Construct validity.}
-``Scale-ready'' is a criteria-and-asset construct in this paper, not a
-platform-measured return construct.
-Absence of completed rollout must not be read as proof that the method is
-ineffective, and bounded Explore signals must not be read as Scale
-completion.
-
-\textbf{Internal validity / observer bias.}
-Authors facilitated enablement, stage-criteria framing, and asset authoring at
-Org-A, and they are guiding Org-B's Explore.
-Consolidation and readiness judgments may reflect consultant--client
-alignment rather than independent audit.
-We mitigate by binding factual sentences to a frozen evidence pack, by
-publishing negative evidence (stubbed L3; unmet Scale admission; Org-B still in
-Explore), and by recording stage dispositions as client management decisions
-(Advance / Hold) rather than as consultant self-scores.
-
-\textbf{Org-B verification limits.}
-Org-B prose relies on an SOW-aligned author briefing.
-The absence of an intranet artifact mirror limits external checking of
-those claims.
-The adoption-after-alternatives account is given at sector and pattern
-level without naming providers, so readers cannot independently reconcile
-competitive context.
-
-\textbf{Conclusion validity.}
-A positive Explore closeout plus a negative Scale admission is an internally consistent pair, not a
-contradictory evaluation.
-Treating either decision as a completed-scale result, or treating Org-B's
-in-progress Explore as a second completed case, would be an invalid
-conclusion.
+\textbf{External.}
+Org-A is the primary longitudinal case; Org-B is late Explore at author
+briefing with stated concurrent harden-and-diffuse intent, not a balanced
+second Consolidation site.
+\textbf{Construct.}
+``Scale-ready'' here means criteria-and-asset readiness, not platform-measured
+return; Explore signals must not be read as Scale completion.
+\textbf{Internal / observer bias.}
+Authors facilitated Org-A enablement and guide Org-B Explore; judgments may
+reflect consultant--client alignment.
+Mitigations: frozen evidence pointers, published negative evidence (stubbed
+L3; unmet Scale admission; Org-B Scale admission not claimed), and client
+Advance/Hold dispositions rather than consultant self-scores.
+\textbf{Org-B verification.}
+Org-B prose is an SOW-aligned author briefing without an intranet mirror.
+\textbf{Conclusion.}
+Explore closeout met plus Scale admission held is consistent; treating either
+as completed scale---or Org-B as a second completed case---would be invalid.
 
 \section{Related Work and Conclusion}
 \label{sec:related-conclusion}
 
 \subsection{Related Work}
 
-\textbf{Methodological positioning.}
-We follow software-engineering case-study guidance on context, chain of
-evidence, and threats~\cite{Runeson2009CaseStudy}, and we treat the
-operating stack and adoption rhythm as a designed enablement artifact~\cite{Hevner2004DSR}
-illustrated primarily at Org-A.
-We do not claim theoretical saturation or a completed design-science
-evaluate cycle with field-measured Scale outcomes.
-
-\textbf{Productivity caution, not a measurement contribution.}
-Forsgren et al.\ argue that developer productivity is multi-dimensional and
-that single metrics mislead~\cite{Forsgren2021SPACE}.
-We take that caution as a reason not to treat a pilot slogan as Scale
-authorization.
-The industrial dual-lens reporting protocol that labels and jointly
-publishes capability and delivery signals is the companion paper's
-contribution, not ours.
-
-\textbf{Sensemaking and classical SE layering as path rationale.}
-Cynefin decision domains motivate treating early AI4SE work as Complex
-probes rather than Clear rollouts~\cite{Snowden2007Cynefin}.
-Classical layered software engineering~\cite{Pressman2014SEPA} motivates
-keeping process/methods/tools structure while upgrading executors and
-placing harness/SDD/agentic assets primarily in Methods.
-Fowler's harness writing supplies the bounded-context intuition we adapt
-for a user-harness certainty boundary~\cite{Fowler2026Harness}.
-None of these sources is re-evaluated here; they justify staging and
-placement vocabulary only.
-
-\textbf{Industry retreat synthesis (rationale taxonomy only).}
-Thoughtworks' Utah and Europe Future of Software Engineering retreats map
-practitioner fault lines---rigor migration into specs/tests/constraints,
-a supervisory middle loop, verification scarcity, harness ownership, and
-decision-time bottlenecks~\cite{Thoughtworks2026UtahRetreat,Thoughtworks2026EuropeRetreat}.
-We borrow only that \emph{fault-line taxonomy} as staging rationale (why
-Explore evidence, Consolidation hardening, and conditional Scale admission
-are distinct decisions).
-We do not import retreat anecdotes as Org-A/Org-B facts, do not treat retreat
-consensus as multi-site validation of our stage criteria, and do not claim the
-retreats prescribe our five-question packet; SPACE remains our productivity
-caution~\cite{Forsgren2021SPACE}.
-
-\textbf{Spec-driven and agentic practice.}
-Gupta's preprint discusses spec-driven development together with agentic
-frameworks~\cite{Gupta2026SDDAgentic}.
-Our use of SDD and Agentic Engineering is narrower: they are two
-directions inside a managed path, with harness and operating-model
-obligations attached to later stages.
-
-\textbf{Maturity models for AI-assisted SE.}
-Tereci et al.\ propose a conceptual maturity model and research agenda for
-AI-assisted software development~\cite{Tereci2026AASD}.
-Anderson's experience-report preprint frames progression from assisted
-coding toward more autonomous systems~\cite{Anderson2026ACMM}.
-Those works target organizational or codebase maturity theory.
-Our unit of analysis is a AI4SE operating stack with an adoption rhythm and the
-closeout and admission criteria of its stages, not a new maturity model.
-
-\textbf{Differentiation from generic Stage-Gate vocabulary.}
-Classical Stage-Gate product processes separate discovery, development, and
-launch with business-case gates~\cite{Cooper1990StageGate}.
-Our rhythm reuses the \emph{idea} of evidence-based admission without adopting Stage-Gate vocabulary for the organizational layer---and the review
-objects differ: AI4SE admission inspects a citable method, a stub-versus-ready
-executable ledger, and transfer preconditions---not a product business case.
-Generic Stage-Gate vocabulary does not, by itself, prevent equating a coding-assistant
-pilot with organization-wide diffusion, nor does it encode
-stub~$\neq$~ready for agent skill packs.
-Relative to AI-assisted maturity models, and to that generic practice, this
-paper records an AI4SE-specific pairing: a withheld Scale admission beside a
-completed Explore at Org-A, plus a thinner Org-B recognition vignette rather
-than a second completed asset ledger.
-We do not claim that pairing is unique in the literature; it is the
-experience we can evidence.
+We follow case-study guidance on context, evidence chain, and
+threats~\cite{Runeson2009CaseStudy} and treat the stack and rhythm as a
+designed enablement artifact~\cite{Hevner2004DSR} illustrated primarily at
+Org-A---not theoretical saturation or a completed DSR evaluate cycle with
+field-measured Scale outcomes.
+SPACE multi-dimensional caution~\cite{Forsgren2021SPACE} is why we refuse
+pilot slogans as Scale authorization; maturity-and-measurement assessment is the
+companion paper's unit, not ours.
+Cynefin~\cite{Snowden2007Cynefin}, classical SE layering~\cite{Pressman2014SEPA},
+and harness bounded-context writing~\cite{Fowler2026Harness} justify staging
+vocabulary only; we do not re-evaluate those sources.
+Thoughtworks retreat fault-line taxonomies supply staging
+rationale~\cite{Thoughtworks2026UtahRetreat,Thoughtworks2026EuropeRetreat}
+without importing retreat anecdotes as Org-A/Org-B facts.
+SDD/agentic practice~\cite{Gupta2026SDDAgentic} appears here as in-path
+directions with later-stage harness and operating-model obligations.
+AI-assisted maturity models~\cite{Tereci2026AASD,Anderson2026ACMM} target
+maturity theory; our unit is an operating stack with stage closeout/admission
+criteria.
+Relative to classical Stage-Gate business-case
+gates~\cite{Cooper1990StageGate}, AI4SE admission inspects a citable method,
+stub-versus-ready ledger, and transfer preconditions---and records a withheld
+Scale admission beside completed Explore at Org-A plus a thinner Org-B
+vignette.
+We do not claim that pairing is unique; it is the experience we can evidence.
 
 \subsection{Conclusion}
 
 We asked how an industrial AI4SE path from pilot toward scale can be
-designed (Q1), what Org-A's Explore produced in support of Consolidation
-and of only-conditional Scale (Q2), and what a still-open Org-B Explore can
-legitimately show about adoption after infeasible alternatives (Q3).
-
-The transferable artifact is the operating stack and adoption rhythm: Explore, Consolidation,
-and conditional Scale, operated as evidence reviews at Explore closeout and Scale admission.
-Org-A shows that a six-week Explore can yield a citable method, countable
-opportunity knowledge, and a stub-versus-ready ledger, and that
-those results can justify Consolidation without authorizing Scale.
-Org-B contributes only a decision fact and an in-progress multi-mode
-Explore under IPD; it does not contribute a second completed stage-criteria packet.
-Neither organization is claimed as organization-wide scale; neither reports
+designed (Q1), what Org-A's Explore produced for Consolidation and only-
+conditional Scale (Q2), and what a late Org-B Explore can show after
+infeasible alternatives---including a hurried concurrent harden-and-diffuse
+\emph{intent} that must not be read as Scale admission (Q3).
+The transferable artifact is the operating stack and Explore--Consolidation--
+conditional-Scale rhythm as evidence reviews.
+Org-A shows that a six-week Explore can yield a citable method, opportunity
+assets, and a stub-versus-ready ledger that justify Consolidation without
+authorizing Scale.
+Org-B contributes a decision fact, a late multi-mode Explore under IPD, and
+a stated concurrent posture distinct from Org-A's sequence---not a second
+completed Consolidation ledger.
+Neither organization is claimed as organization-wide scale or as reporting
 platform-measured return.
-
-Future camera-ready updates may refresh Org-B's mid-September delivery
-status once author-confirmed.
-They should not convert an unmet Scale admission, or an in-progress Explore, into a
-completed-scale claim.
+Camera-ready updates may refresh Org-B Explore/Scale dispositions only with
+author-confirmed facts---never invent closeout or completed scale.
 
 \section*{Acknowledgment}
 We thank Org-A and Org-B engineering participants for stage reviews and
 enablement collaboration.
-Individuals and legal client entities remain unnamed under partner
-confidentiality; publication is anonymized without client co-authorship.
-Funding disclosures, if any, will be finalized for the camera-ready version.
 
 \section*{Data Availability}
-Anonymized, self-contained evidence for this manuscript is released at
+Anonymized evidence is at
 \url{https://github.com/ai4se-works/artifacts/tree/main/manuscripts/stage-gated-ai4se-path/data}
-(CC-BY-4.0).
-The pack includes a stage-criteria rubric (Explore closeout / Scale admission), a public L1 method card (chapter map,
-principles, artifact chain, process Align/Verify/Merge reviews, paraphrased normative clauses, and
-declared v1 gaps), an L1--L4 asset ledger, a twelve-theme index with
-observation flags, a redacted L3 stub map, and the Org-A timeline used in the
-case narrative.
-It is intended for inspection of those claims without access to partner
-intranets.
-The full client-facing playbook text, opportunity Spec/BP bodies, plugin
-sources, unredacted change records, and Org-B workspace content remain
-confidential.
-Quantitative maturity and workshop tables are not reproduced here; they appear
-in the companion measurement data pack in the same artifacts repository.
+(CC-BY-4.0): stage-criteria rubric, L1 method card, L1--L4 ledger, theme
+index, redacted L3 stub map, Org-A timeline, and Consolidation-midpoint
+tables \texttt{stage2\_process\_counts.csv} /
+\texttt{stage2\_asset\_status.csv} (\texttt{process\_maturity} only).
+Full playbook text, Spec/BP bodies, plugins, unredacted records, and Org-B
+workspaces remain confidential.
+Maturity/workshop tables appear only in the companion measurement pack.
 
 \balance
 \bibliographystyle{IEEEtran}

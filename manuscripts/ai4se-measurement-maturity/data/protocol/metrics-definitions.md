@@ -95,8 +95,8 @@ Relative duration change (spec appendix / platform alignment form):
 
 | Label | Use |
 |-------|-----|
-| `expert_estimate` | Facilitated judgment / workshop |
-| `process_signal` | Maturity or other process assessment |
-| `req_measured` | Computed from requirements platform/Git under these definitions |
+| `metric_estimate` | Facilitated judgment / workshop |
+| `process_maturity` | Maturity or other process assessment |
+| `metric_platform` | Computed from requirements platform/Git under these definitions |
 
-This public pack’s Org-A effectiveness tables are **`expert_estimate` only**. Do not invent `req_measured` claims from workshop estimates.
+This public pack’s Org-A effectiveness tables are **`metric_estimate` only**. Do not invent `metric_platform` claims from workshop estimates.

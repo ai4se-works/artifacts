@@ -1,0 +1,5 @@
+category,n_total,n_running,n_hardening,n_pending,signal_type,notes
+dev_stages,6,6,0,0,process_maturity,stages 0-5 all exercised
+core_roles,4,3,1,0,process_maturity,AI orchestration role part-time hardening
+quality_gates,3,3,0,0,process_maturity,human adjudication; written criteria incomplete
+ai_assets,28,0,28,0,process_maturity,skills class hardening; agent tier deferred (0 agents)

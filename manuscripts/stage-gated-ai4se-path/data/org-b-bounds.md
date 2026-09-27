@@ -8,10 +8,12 @@ packet.
 |---|---|
 | Label | Org-B |
 | Sector | Manufacturing enterprise |
-| Phase at manuscript freeze | Explore in progress (indicative window mid-July → mid-September 2026) |
-| Decision fact used in paper | After early co-located alternative approaches proved infeasible for Org-B’s setting, the organization selected this operating stack and adoption rhythm for ongoing exploration |
+| Phase at manuscript freeze | **Late Explore / nearing closeout** (author briefing 2026-09-27) — not written as formal Explore-closeout *met* |
+| Concurrent posture | Stated **harden-and-diffuse intent** (pilot hardening in parallel with gradual additional-team enablement); **not** Scale admission; **not** Org-A-style Consolidation complete |
+| Decision fact used in paper | After early co-located alternative approaches proved infeasible for Org-B’s setting, the organization selected this operating stack and adoption rhythm |
 | Pilot design | Multiple pilot teams spanning heterogeneous software modes (embedded; internal-use apps; large enterprise systems; AI-agent-oriented development) |
-| What is **not** claimed | Consolidation complete; Scale admission; organization-wide rollout; a second EC/SA stage-criteria packet |
+| What is **not** claimed | Formal Explore closeout pass; Consolidation complete; Scale admission; organization-wide rollout started; a second EC/SA stage-criteria packet; any Org-B ROI/maturity numbers |
 | Access constraint | No public mirror of Org-B intranet workspaces |
+| War Room Stage-2 midpoint PDF | **Org-A only** (see shared `consolidation-stage2-midpoint.md` / E7) — not Org-B material |
 
 Other consultancy names and legal entity names are withheld.

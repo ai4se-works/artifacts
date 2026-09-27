@@ -140,7 +140,7 @@ def extract_maturity_domains(wb) -> list[dict]:
                 "before": _fmt(before, 2),
                 "after": _fmt(after, 2),
                 "delta": _fmt(delta, 2),
-                "signal_type": "process_signal",
+                "signal_type": "process_maturity",
                 "notes": notes,
             }
         )
@@ -171,7 +171,7 @@ def extract_maturity_capabilities(wb) -> list[dict]:
                 "delta": _fmt(delta, 0),
                 "before_level": _level_code(row[7]),
                 "after_level": _level_code(row[8]),
-                "signal_type": "process_signal",
+                "signal_type": "process_maturity",
             }
         )
     return rows
@@ -229,7 +229,7 @@ def extract_effectiveness_pairs(wb) -> list[dict]:
                 "ct2_p75_after": _fmt(ct2_a, 4),
                 "ct2_speedup": _fmt(ct2_speedup, 6),
                 "ct2_reduction_pct": _fmt(ct2_reduction, 6),
-                "signal_type": "expert_estimate",
+                "signal_type": "metric_estimate",
             }
         )
     return rows
@@ -280,7 +280,7 @@ def extract_effectiveness_aggregate(wb) -> list[dict]:
                     "metric": metric,
                     "stat": stat,
                     "value": _fmt(value, 6),
-                    "signal_type": "expert_estimate",
+                    "signal_type": "metric_estimate",
                 }
             )
     return rows

@@ -6,7 +6,7 @@
       "title": "Maturity domain before/after (radar or clustered bars)",
       "source_csv": "derived/maturity_domain_scores.csv",
       "columns": ["domain_id", "domain_name_en", "before", "after", "delta"],
-      "signal_type": "process_signal",
+      "signal_type": "process_maturity",
       "artifact": "paper-c-measurement/figures/f1-maturity-domains.pdf",
       "notes": "Clustered bar chart; PNG sibling also generated for preview."
     },
@@ -15,7 +15,7 @@
       "title": "Capability-level maturity heatmap (18 items)",
       "source_csv": "derived/maturity_capabilities.csv",
       "columns": ["domain_id", "capability_id", "before", "after", "delta", "before_level", "after_level"],
-      "signal_type": "process_signal"
+      "signal_type": "process_maturity"
     },
     {
       "id": "F3",
@@ -33,7 +33,7 @@
         "ct2_p75_after",
         "ct2_speedup"
       ],
-      "signal_type": "expert_estimate",
+      "signal_type": "metric_estimate",
       "notes": "pair_id is Pair-1..Pair-6 only; never plot member names."
     },
     {
@@ -42,7 +42,7 @@
       "source_csv": "derived/effectiveness_aggregate.csv",
       "columns": ["metric", "stat", "value"],
       "filter": "stat in {median, p25, p75, iqr}",
-      "signal_type": "expert_estimate"
+      "signal_type": "metric_estimate"
     }
   ]
 }

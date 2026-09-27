@@ -1,6 +1,6 @@
 # Maturity scoring guide (Org-A instrument)
 
-**Signal type:** `process_signal` (facilitator-guided consensus; **not** platform-measured)  
+**Signal type:** `process_maturity` (facilitator-guided consensus; **not** platform-measured)  
 **Instrument:** 6 domains × 18 capabilities (3 per domain), levels L1–L5  
 **Derived scores:** `../derived/maturity_capabilities.csv`, `../derived/maturity_domain_scores.csv`
 
@@ -44,7 +44,7 @@ Full capability IDs and Before/After levels: see `maturity_capabilities.csv`.
 2. Prefer under-claiming when evidence is thin (default to lower level).
 3. A one-level lift on a single capability with two unchanged → domain mean Δ ≈ 0.33.
 4. Short pilots (~6 weeks) should be expected to move only a subset of capabilities; modest Δ is news, not automatic failure.
-5. Never promote maturity scores to delivery ROI or `req_measured`.
+5. Never promote maturity scores to delivery ROI or `metric_platform`.
 
 ## Limits (publish with scores)
 

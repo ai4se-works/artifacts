@@ -56,4 +56,4 @@ Facilitator aggregates six Δs into median / IQR (and optionally min/max). **Do 
 
 ## Reading for management
 
-Report central tendency as **median** of pair Δs with **IQR** as disagreement. State signal type `expert_estimate`. Close the loop later with `req_measured` under `metrics-definitions.md`.
+Report central tendency as **median** of pair Δs with **IQR** as disagreement. State signal type `metric_estimate`. Close the loop later with `metric_platform` under `metrics-definitions.md`.
