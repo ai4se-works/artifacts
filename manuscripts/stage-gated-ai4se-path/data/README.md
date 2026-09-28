@@ -1,7 +1,7 @@
 # Data pack — AI4SE operating stack (reviewer-facing)
 
 Anonymized, **self-contained** evidence for the manuscript
-*From Pilot Evidence to Conditional Scale: An AI4SE Operating Stack for Mid-to-Large Organizations*.
+*From AI4SE Pilot to Conditional Scale: A Transformation-Path Experience in Mid-to-Large R&D Organizations*.
 
 **Canonical URL:** https://github.com/ai4se-works/artifacts/tree/main/manuscripts/stage-gated-ai4se-path/data  
 **License:** CC-BY-4.0 (repository root `LICENSE`)
@@ -15,10 +15,10 @@ readable without access to any private consulting repository.
 |---|---|
 | Explore closeout (EC) met / Scale admission (SA) held at Org-A | [`gate-rubric.md`](gate-rubric.md) |
 | Stage goals and exit tests (Explore / Consolidation / Scale) | [`gate-rubric.md`](gate-rubric.md) |
-| L1 citable method kernel (principles, artifact chain, Align/Verify/Merge, normative clauses, known gaps) | [`l1-method-extract.md`](l1-method-extract.md) |
-| L1–L4 asset classes, outcomes, readiness boundaries | [`asset-ledger.csv`](asset-ledger.csv) |
-| Twelve opportunity themes; #5/#9 observation; aggregate 11+11 L2 counts | [`theme-index.csv`](theme-index.csv) + [`asset-ledger.csv`](asset-ledger.csv) (L2 row) |
-| L3 executable pack layout; stub vs ready on main chain | [`l3-stub-map.md`](l3-stub-map.md) |
+| Method-layer citable method kernel (principles, artifact chain, Align/Verify/Merge, normative clauses, known gaps) | [`method-extract.md`](method-extract.md) |
+| Method–Evidence asset classes, outcomes, readiness boundaries | [`asset-ledger.csv`](asset-ledger.csv) |
+| Twelve opportunity themes; #5/#9 observation; aggregate 11+11 Opportunity-layer counts | [`theme-index.csv`](theme-index.csv) + [`asset-ledger.csv`](asset-ledger.csv) (Opportunity row) |
+| L3 executable pack layout; stub vs ready on main chain | [`exec-stub-map.md`](exec-stub-map.md) |
 | Org-A Explore timeline (~6 weeks; week-level windows, not day-exact) | [`timeline.csv`](timeline.csv) |
 | Org-A sector-type portrait (anonymized) | [`org-a-context.md`](org-a-context.md) |
 | Org-B recognition vignette bounds only | [`org-b-bounds.md`](org-b-bounds.md) |
@@ -26,7 +26,7 @@ readable without access to any private consulting repository.
 
 ## What is NOT included
 
-- Full playbook / operations handbook text (only the public method card in `l1-method-extract.md`)
+- Full playbook / operations handbook text (only the public method card in `method-extract.md`)
 - Opportunity Spec/BP bodies, or plugin source trees
 - Client intranet materials, legal entity names, product brands, participant names
 - Raw workshop transcripts, photos, or unredacted change records
@@ -40,8 +40,8 @@ The manuscript and [`asset-ledger.csv`](asset-ledger.csv) report **11 best pract
 Spec/BP file bodies are withheld; the CSV is for status inspection only.
 
 1. Read [`gate-rubric.md`](gate-rubric.md) for the stage-criteria contract and Org-A EC/SA outcomes.
-2. Read [`l1-method-extract.md`](l1-method-extract.md) for the citable method kernel behind L1.
-3. Cross-check Table “asset ledger” claims against [`asset-ledger.csv`](asset-ledger.csv) and [`l3-stub-map.md`](l3-stub-map.md).
+2. Read [`method-extract.md`](method-extract.md) for the citable method kernel behind the Method layer.
+3. Cross-check Table “asset ledger” claims against [`asset-ledger.csv`](asset-ledger.csv) and [`exec-stub-map.md`](exec-stub-map.md).
 4. Cross-check theme counts / observation flags against [`theme-index.csv`](theme-index.csv).
 5. Cross-check the Org-A timeline figure against [`timeline.csv`](timeline.csv).
 

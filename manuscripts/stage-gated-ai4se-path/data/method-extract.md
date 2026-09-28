@@ -1,6 +1,6 @@
-# L1 method extract (public inspection card)
+# Method-layer method extract (public inspection card)
 
-**Purpose.** This file is a **self-contained method card** for external readers of the AI4SE operating-stack manuscript. It supports inspection of the claim that Explore produced a **citable L1 method** (handbook v1.0 frozen at Explore closeout), without publishing the full client-facing deliverable.
+**Purpose.** This file is a **self-contained method card** for external readers of the AI4SE operating-stack manuscript. It supports inspection of the claim that Explore produced a **citable Method-layer method** (handbook v1.0 frozen at Explore closeout), without publishing the full client-facing deliverable.
 
 **What this is**
 
@@ -11,7 +11,7 @@
 
 - Not the full playbook / operations handbook text.
 - Not Org-A–branded customization chapters, intranet tool recipes, workshop transcripts, or opportunity Spec/BP bodies.
-- Not permission to treat catalogued L3 stubs as production-ready (see [`l3-stub-map.md`](l3-stub-map.md)).
+- Not permission to treat catalogued Executable-layer stubs as production-ready (see [`exec-stub-map.md`](exec-stub-map.md)).
 
 **Ownership / disclosure.** Full handbook text remains confidential under partner constraints. This extract is released under the repository CC-BY-4.0 license for manuscript inspection only.
 
@@ -127,7 +127,7 @@ Explore closeout can be met with a citable v1 **and** visible gaps. Gaps recorde
 
 | Gap class | Public description | Consolidation intent |
 |---|---|---|
-| Runnable fidelity | Some handbook clauses “read right” but were not yet backed by a hardened primary L3 path | Playbook v2 + L3 stub→ready (see [`l3-stub-map.md`](l3-stub-map.md)) |
+| Runnable fidelity | Some handbook clauses “read right” but were not yet backed by a hardened primary Executable path | Playbook v2 + Executable stub→ready (see [`exec-stub-map.md`](exec-stub-map.md)) |
 | Teachability | v1 was showable/citable; org-wide teach-the-teacher not yet demonstrated | Seed coaches; “team can teach” exit |
 | Observation themes | Themes #5 and #9 remained observation in the L2 index | Converge or keep explicitly flagged ([`theme-index.csv`](theme-index.csv)) |
 
@@ -138,9 +138,9 @@ Explore closeout can be met with a citable v1 **and** visible gaps. Gaps recorde
 | If you want to check… | Open |
 |---|---|
 | Organizational Explore/Scale admission | [`gate-rubric.md`](gate-rubric.md) |
-| L1–L4 readiness summary | [`asset-ledger.csv`](asset-ledger.csv) |
+| Method–Evidence readiness summary | [`asset-ledger.csv`](asset-ledger.csv) |
 | Theme release vs observation | [`theme-index.csv`](theme-index.csv) |
-| Executable stub honesty | [`l3-stub-map.md`](l3-stub-map.md) |
+| Executable stub honesty | [`exec-stub-map.md`](exec-stub-map.md) |
 | This method kernel | **this file** |
 
 **Reader takeaway.** Explore closeout did not require open-sourcing a client deliverable. It required a **citable method with inspectable structure, normative constraints, and declared gaps**—which this card is intended to demonstrate.
