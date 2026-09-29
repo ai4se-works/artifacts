@@ -44,9 +44,11 @@ Explore--Consolidation--conditional-Scale path, with evidence reviews.
 Results show that, at Org-A, a six-week Explore produced citable
 method, opportunity assets, and a readiness-labeled executable ledger;
 management passed Explore closeout but withheld Scale admission. In an observed
-five-week Consolidation slice, 15 requirements, 18 changes, and 8 finished
-changes were recorded, all entering through \texttt{/sdd}; Verify,
-Align, and role gaps kept Scale conditional. After judging alternative AI4SE
+five-week Consolidation slice, the team recorded 15 requirements, 18 changes,
+and 8 finished changes. All 18 changes were processed through the
+Spec-Driven Development (SDD) workflow, with a corresponding specification
+produced for each change; Verify, Align, and role gaps kept Scale conditional.
+After judging alternative AI4SE
 approaches infeasible for its setting, Org-B selected the path instantiated at
 Org-A and began adapting it to incumbent IPD and SAFe-class constraints. Its
 record is a briefing-level adaptation design, not evidence of formal
@@ -102,8 +104,10 @@ the failure mode this paper records.
 
 Five recurring AI4SE failure modes (DevOps patterns reframed for AI) also
 shape the design:
-\emph{value-curve misread} (no tolerance for the J-curve of learning and
-validating/repairing model output, worsened by hallucination risk);
+\emph{value-curve misread} (underestimating the transformation J-curve:
+early gains can be followed by a temporary efficiency dip as teams absorb new
+practices, add testing, and pay down technical debt~\cite{DORA2018Accelerate};
+in AI4SE, learning to validate and repair model output can deepen that dip);
 \emph{no pilot capacity} under delivery pressure (fragmentary tool trials);
 \emph{tool-procurement equivalence} without redesigning review/security/compliance
 for generated artifacts;
@@ -271,7 +275,7 @@ layer.
 \node[layer, right=8mm of tt] (at) {Tools\\(agent runtime)};
 \node[layer, below=2mm of at] (am) {Methods\\(+SDD/Harness/Agentic)};
 \node[layer, below=2mm of am] (ap) {Process\\(human+agent)};
-\node[layer, below=2mm of ap] (aq) {Effectiveness\\(Q+efficiency)};
+\node[layer, below=2mm of ap] (aq) {Effectiveness\\(quality + efficiency)};
 % Harmony spans the full AI4SE stack height (Tools .. Effectiveness).
 \path let \p1=(at.north), \p2=(aq.south), \n1={\y1-\y2} in
   node[
@@ -383,8 +387,9 @@ As enablement heuristics (not Org-A/Org-B measured protocols)\label{sec:team-top
 formation change stays \emph{minimal}---keep Scrum-class size/cadence;
 subdivide into cells with Spec Steward + Verification Lead; share Intent Owner
 and AI Orchestrator across cells when Intent Owner is not sole verifier and
-Orchestrator does not self-certify apply---and risk routing uses HITL for
-plan/review/ship, HOTL for supervised execute, and HOOL only for bounded
+Orchestrator does not self-certify apply---and risk routing uses
+human-in-the-loop (HITL) for plan/review/ship, human-on-the-loop (HOTL) for
+supervised execution, and human-out-of-the-loop (HOOL) only for bounded
 low-risk drafts.
 Both concerns feed Explore closeout and Scale admission criteria as design
 vocabulary; they are not reported here as measured organizational return.
