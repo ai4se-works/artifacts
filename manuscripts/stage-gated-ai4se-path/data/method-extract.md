@@ -129,7 +129,7 @@ Explore closeout can be met with a citable v1 **and** visible gaps. Gaps recorde
 |---|---|---|
 | Runnable fidelity | Some handbook clauses “read right” but were not yet backed by a hardened primary Executable path | Playbook v2 + Executable stub→ready (see [`exec-stub-map.md`](exec-stub-map.md)) |
 | Teachability | v1 was showable/citable; org-wide teach-the-teacher not yet demonstrated | Seed coaches; “team can teach” exit |
-| Observation themes | Themes #5 and #9 remained observation in the L2 index | Converge or keep explicitly flagged ([`theme-index.csv`](theme-index.csv)) |
+| Observation themes | Among 14 themes (12 numbered + 2 co-created), #5 and #9 remained observation; release set is 11 BP + 13 Spec (not 1:1) | Converge or keep explicitly flagged ([`theme-index.csv`](theme-index.csv)) |
 
 ---
 

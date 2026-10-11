@@ -17,7 +17,7 @@ readable without access to any private consulting repository.
 | Stage goals and exit tests (Explore / Consolidation / Scale) | [`gate-rubric.md`](gate-rubric.md) |
 | Method-layer citable method kernel (principles, artifact chain, Align/Verify/Merge, normative clauses, known gaps) | [`method-extract.md`](method-extract.md) |
 | Method–Evidence asset classes, outcomes, readiness boundaries | [`asset-ledger.csv`](asset-ledger.csv) |
-| Twelve opportunity themes; #5/#9 observation; aggregate 11+11 Opportunity-layer counts | [`theme-index.csv`](theme-index.csv) + [`asset-ledger.csv`](asset-ledger.csv) (Opportunity row) |
+| Fourteen opportunity themes (12 numbered + 2 co-created); #5/#9 observation; aggregate 11 BP + 13 Spec Opportunity-layer counts | [`theme-index.csv`](theme-index.csv) + [`asset-ledger.csv`](asset-ledger.csv) (Opportunity row) |
 | L3 executable pack layout; stub vs ready on main chain | [`exec-stub-map.md`](exec-stub-map.md) |
 | Org-A Explore timeline (~6 weeks; week-level windows, not day-exact) | [`timeline.csv`](timeline.csv) |
 | Org-A sector-type portrait (anonymized) | [`org-a-context.md`](org-a-context.md) |
@@ -35,8 +35,8 @@ readable without access to any private consulting repository.
 
 ## Aggregate L2 counts
 
-The manuscript and [`asset-ledger.csv`](asset-ledger.csv) report **11 best practices + 11 specifications** in the Explore release index.
-[`theme-index.csv`](theme-index.csv) lists all **twelve** named themes with `released` vs `observation` status (#5 and #9 observation).
+The manuscript and [`asset-ledger.csv`](asset-ledger.csv) report **11 best practices + 13 specifications** in the Explore release set (file-count SSOT; not a 1:1 theme–spec–practice map).
+[`theme-index.csv`](theme-index.csv) lists all **fourteen** themes---twelve numbered plan themes plus two co-created themes (C1 agent architecture; C2 SDD Scrum events)---with `released` vs `observation` status (#5 and #9 observation).
 Spec/BP file bodies are withheld; the CSV is for status inspection only.
 
 1. Read [`gate-rubric.md`](gate-rubric.md) for the stage-criteria contract and Org-A EC/SA outcomes.

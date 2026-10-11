@@ -615,8 +615,9 @@ Continuously collect Throughput and CT1/CT2 from the requirements management pla
 Expand the published metric set beyond the workshop primary pair as instrumentation matures (e.g., additional workflow endpoints and team-grain aggregates), still under explicit signal-type labels.
 
 \textbf{Quality monitoring beside efficiency.}
-Elevate key quality indicators that Org-A already treats as red lines---such as defect escape rate and defect density under client definitions---from governance preconditions into a monitored parallel track next to Throughput/CT.
-Scale-out claims should require non-degrading (or improving) quality under those definitions, not efficiency slogans alone.
+This phase prioritized Throughput/CT because the sponsor ask was efficiency / productivity proof under Org-A's existing quality gates (Section~\ref{sec:context}); those gates stayed as governance preconditions and were not instrumented as a reported parallel track here.
+Future work should elevate the same client-defined red-line indicators---e.g., defect escape rate and defect density---into a labeled quality track beside Throughput/CT, with the same estimate-vs-\texttt{metric\_platform} discipline rather than a slogan-style quality multiplier.
+Scale-out claims for AI4SE change should then require non-degrading (or improving) quality under those definitions, not efficiency slogans alone.
 
 \textbf{Spec-driven development (SDD) metrics.}
 Prioritize instrumentation for the spec-driven method pack itself: how specs/recipes are authored and reused, how Changes fold back to stories, and how SDD-specific workflow states relate to CT1/CT2 and completion under the same Product Backlog discipline.
@@ -651,6 +652,8 @@ We do not extrapolate Org-A to industry-wide multipliers: multi-dimensional prod
 \section*{Acknowledgment}
 We thank Org-A engineering participants for enablement collaboration and
 executive readout discussion.
+We also thank Di Qin and Kun Wei (Inspire Group) for constructive peer feedback
+on an earlier draft of this manuscript.
 
 \section*{Data Availability}
 Anonymized derived tables, metric definitions, workshop protocol text, and the maturity scoring guide accompanying this paper are released at

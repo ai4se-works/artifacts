@@ -13,11 +13,18 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{balance}
 
+% Modest float tightening for SEIP ≤10pp main-text budget (IEEE-legal spacing).
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{8pt plus 2pt minus 4pt}
+\setlength{\dblfloatsep}{8pt plus 2pt minus 4pt}
+
 \begin{document}
 
 \title{From AI4SE Pilot to Conditional Scale: A Transformation-Path Experience in Mid-to-Large R\&D Organizations%
-\thanks{J.~Qiu is Principal AI4SE Consultant at Inspire Group (Ph.D., Software Engineering, Tongji University; 18+ years in software engineering, R\&D productivity, and enterprise architecture).
-Q.~Yan is AI4SE Engineering Advisor at Inspire Group (M.S., Computer Science, Sichuan University; 10+ years in enterprise architecture, DevOps, and AI-agent engineering).
+\thanks{J.~Qiu is Principal AI4SE Consultant at Inspire Group (Ph.D., Software Engineering, Tongji University).
+Q.~Yan is AI4SE Engineering Advisor at Inspire Group (M.S., Computer Science, Sichuan University).
 Inspire Group is a technology-services firm formed from the former Thoughtworks China business after its acquisition by Hillhouse Capital (announced 2025).}}
 
 % Inspire Group authors only; client declined co-authorship (2026-09 decision). Body keeps Org-A / Org-B anonymization + sector-type portraits.
@@ -140,9 +147,10 @@ The transferable artifact is therefore the framework's path-plus-admission
 contract, not a tool catalog or completed rollout; operating-stack terms name
 the practices carried by that contract.
 
-We organize the experience around three questions.  The questions are stated
-at the level of the framework and its evidence; the cases provide the
-observations and adaptation record:
+We organize the experience around three questions.
+The questions are stated at the level of the framework and its evidence;
+Org-A and Org-B are the evidence sites that answer them, not part of the
+question wording:
 \begin{itemize}
 \item \textbf{Q1.}
 What evidence-based framework and method can structure an industrial AI4SE
@@ -150,15 +158,14 @@ transformation from pilot exploration toward conditional scale, so that
 calendar completion is not treated as scale readiness?
 (Answered in Section~\ref{sec:path}.)
 \item \textbf{Q2.}
-What evidence did Org-A's completed Explore produce, and why did that evidence
-support Explore closeout and entry into Consolidation without supporting Scale
-admission?
-(Answered in Section~\ref{sec:org-a}.)
+What evidence can a completed Explore produce that supports Explore closeout
+and entry into Consolidation without supporting Scale admission?
+(Answered in Section~\ref{sec:org-a}, primarily at Org-A.)
 \item \textbf{Q3.}
 What team-level adaptation design was documented for the SDD-centered
 framework in late Explore under incumbent IPD and SAFe-class constraints, and
 what evidence boundaries remained?
-(Answered in Sections~\ref{sec:org-b} and~\ref{sec:discussion}.)
+(Answered in Sections~\ref{sec:org-b} and~\ref{sec:discussion}, primarily at Org-B.)
 \end{itemize}
 
 \textbf{Methodological stance.}
@@ -328,7 +335,7 @@ change-request flow, not a discard of Scrum cadence).
 We reserve the word \emph{gate} for those process-level Align/Verify/Merge
 reviews in the method pack, and we use \emph{closeout} / \emph{admission} for
 organizational stage decisions in Section~\ref{sec:path}---so the two loops
-do not share G1/G2 numbering.
+do not reuse the same numbered gate labels.
 
 \begin{figure}[t]
 \centering
@@ -371,39 +378,25 @@ from stories toward SDD change requests.}
 We use two cross-cutting concerns---\emph{Effectiveness} and
 \emph{Harmony}---and four stage-relative directions (SDD, Agentic Engineering,
 Harness Engineering, Operating Model) as path vocabulary, not as a maturity
-model or a substitute for stage closeout and admission.
+model or a closeout/admission substitute.
 Effectiveness requires inspectable evidence that selected work ran under local
-constraints (citable method, validation-vehicle run-through, or new-team
-cycle) rather than attendance or license counts; quality includes
-\emph{trust} (permissions, safety, compliance), and efficiency means valuable
-outcomes without waste.
-Harmony requires operationalized human--agent accountability under four named
-functions---\emph{Intent Owner}, \emph{Spec Steward} (specification architect),
-\emph{AI Orchestrator}, and \emph{Verification Lead}.
-These functions may be combined but must not be vacant, and
-\emph{contract separation} forbids the apply party from being the sole
-verifier.
-As enablement heuristics (not Org-A/Org-B measured protocols)\label{sec:team-topology},
-formation change stays \emph{minimal}---keep Scrum-class size/cadence;
-subdivide into cells with Spec Steward + Verification Lead; share Intent Owner
-and AI Orchestrator across cells when Intent Owner is not sole verifier and
-Orchestrator does not self-certify apply---and risk routing uses
-human-in-the-loop (HITL) for plan/review/ship, human-on-the-loop (HOTL) for
-supervised execution, and human-out-of-the-loop (HOOL) only for bounded
-low-risk drafts.
-Both concerns feed Explore closeout and Scale admission criteria as design
-vocabulary; they are not reported here as measured organizational return.
-
+constraints (citable method, validation-vehicle run-through, or new-team cycle)
+rather than attendance; quality includes \emph{trust}, and efficiency means
+valuable outcomes without waste.
+Harmony requires human--agent accountability under four named
+functions---\emph{Intent Owner}, \emph{Spec Steward}, \emph{AI Orchestrator},
+and \emph{Verification Lead}---which may be combined but not vacant, with
+\emph{contract separation} forbidding the apply party as sole verifier.
+As enablement heuristics (not measured Org-A/Org-B protocols)\label{sec:team-topology},
+formation change stays minimal (Scrum-class cadence; Spec Steward + Verification
+Lead cells; shared Intent Owner / Orchestrator only when apply is not
+self-certified), and risk routing uses HITL / HOTL / HOOL by risk band.
 Along the path: \textbf{SDD} yields a citable then teachable specification
-contract;
-\textbf{Agentic} work must become a repeatable main path under guardrails;
-\textbf{Harness} moves from disclosed scaffold to hardened starter kit (a stub
-is not production-ready; Section~\ref{sec:org-a});
-\textbf{Operating Model} names owners and seed coaches so a hardened harness
-has an authorized receiving team (role-cell heuristics above remain optional
-design aids).
-Recent SDD/agentic writing~\cite{Gupta2026SDDAgentic} is peer thematic context
-only; it does not supply Org-A stage evidence.
+contract; \textbf{Agentic} work must become a guarded main path;
+\textbf{Harness} moves from disclosed scaffold to hardened starter kit
+(stub~$\neq$~ready; Section~\ref{sec:org-a}); \textbf{Operating Model} names
+owners and seed coaches for a receiving team.
+SDD/agentic writing~\cite{Gupta2026SDDAgentic} is peer context only.
 
 \subsection{Certainty Boundary: User Harness, Model, and Method Assets}
 \label{sec:harness-boundary}
@@ -581,7 +574,7 @@ required to advance; it does not indicate that Org-A completed Scale.}
 \textbf{Stage 1---Explore.}
 The purpose of Explore is feasibility, not broad deployment.  In the Org-A
 instantiation, the indicative duration was approximately six weeks, spanning
-diagnosis and scenario selection, four workshop weeks over twelve opportunity
+diagnosis and scenario selection, four workshop weeks over fourteen opportunity
 themes, co-creation of an initial playbook and executable-asset scaffold, and
 use of a pilot change request as a validation vehicle.  The exit criterion
 was an end-to-end run-through of the method chain.  It was deliberately not
@@ -849,43 +842,43 @@ readout at the end of Explore closed the phase, aligned the Consolidation
 path, and explicitly did not claim Scale admission.
 
 % FACT-IV-C
-Across those four workshop weeks, the team worked through twelve opportunity
-themes and co-created initial method and opportunity assets.  A pilot change
+Across those four workshop weeks, the team worked through fourteen opportunity
+themes---twelve numbered plan themes plus two co-created themes---and
+co-created initial method and opportunity assets.  A pilot change
 request supplied the validation vehicle for using the method in delivery.
 This choice kept acceptance focused on whether the chain from opportunity
 through specification and practice could be exercised, rather than on
 shipping all business scope.  The activity record consequently supports a
 process-feasibility conclusion, not a claim about broad adoption.
 
+% FACT-IV-C2 — opportunity co-creation protocol (facilitation mechanism, not a DT experiment)
+Opportunity co-creation followed Design Thinking's Double Diamond
+(diverge--converge) rather than a consultant-authored theme
+list~\cite{DesignCouncilDoubleDiamond}: facilitators guided participants to
+brainstorm and converge \emph{with} AI assistants, and converged outputs seeded
+Opportunity-layer specifications (and later best practices).
+We report this as an Explore enablement mechanism, not a controlled Design
+Thinking or AI-brainstorming evaluation.
+
 \subsection{From Activities to Stage Evidence}
 
 The workshop sequence was not treated as attendance evidence.  Each block
-was expected to leave a trace in one or more asset layers.  Foundation work
-informed the method guidance and executable scaffold; opportunity work
+was expected to leave a trace in one or more asset layers: foundation work
+fed method guidance and executable scaffold; Double Diamond opportunity work
 created specifications and best practices; delivery-track use tested whether
-those descriptions could guide action; and the closeout evidence pack
-recorded both observed signals and their limits.  This trace converted a
-series of facilitated sessions into inspectable inputs to Explore closeout.
-
-The parallel tracks in W4 were particularly important to that conversion.
-Playbook authoring alone could have produced guidance that was internally
-coherent but detached from delivery.  Delivery work alone could have
-produced a one-off result whose method remained tacit.  Running authoring and
-specification validation together created a feedback loop: delivery exposed
-where wording or executable support was weak, while the playbook gave the
-team a stable object to revise and later cite.  The closeout review then assessed the
-resulting artifacts and disclosed gaps rather than inferring capability from
-workshop completion.
-
-We used three readiness distinctions when interpreting the handoff.
-\emph{Citable} means an artifact is stable enough to identify and discuss.
-\emph{Runnable} means that its principal path works in the intended local
-workflow.  \emph{Transferable} adds the ability of another team to use that
-path with declared guardrails and bounded coaching.  Explore required a
-citable method and evidence of local use; Scale admission would require
-runnable and transferable support.  The distinctions explain why the Method-layer
-playbook could satisfy its Explore-closeout criterion while the largely stubbed Executable pack
-could not satisfy Scale admission.
+those descriptions could guide action; and the closeout pack recorded signals
+and their limits.
+W4's parallel playbook authoring and specification validation formed the key
+feedback loop---delivery exposed weak wording or stubs; the playbook remained
+a revisable, citable object---so closeout assessed artifacts and gaps rather
+than inferring capability from workshop completion.
+We used three readiness distinctions: \emph{citable} (stable enough to discuss),
+\emph{runnable} (principal path works locally), and \emph{transferable}
+(another team can use it under declared guardrails).
+Explore required a citable method and local use; Scale admission would require
+runnable and transferable support---hence a Method-layer playbook could meet
+Explore closeout while a largely stubbed Executable pack could not meet Scale
+admission.
 
 \subsection{Method--Evidence Outcomes and Readiness}
 
@@ -915,9 +908,10 @@ It was not playbook v2; clauses that read well but do not run remained
 targets for revision. \\
 \addlinespace
 Opportunity & Opportunity specifications and best practices &
-The release index contained 11 best practices and 11 specifications;
-opportunity themes \#5 and \#9 remained observation items. &
-Countability did not mean that every theme had converged. \\
+The release set contained 11 best practices and 13 specifications across
+fourteen themes; themes \#5 and \#9 remained observation items. &
+Countability did not mean 1:1 theme--spec--practice pairing or full
+convergence of every theme. \\
 \addlinespace
 Executable & Executable plugins, skills, and recipes &
 The formal pack, including the \texttt{/sdd} path, skills, recipes, and
@@ -941,37 +935,34 @@ increments---well enough to be shown and referenced at closeout.
 Its frozen state made the Explore result auditable; it did not mean that
 Consolidation revisions were complete.
 Playbook v2 remained a Stage-2 target.
-A public method card distilled for inspection (chapter map, five first
-principles, Living-Spec artifact chain, 5+1 stages with Align/Verify/Merge
-Align/Verify/Merge reviews, paraphrased normative clauses, and declared v1 gaps) is released with
-the data pack;\footnote{See
+A public method card (chapter map, five first principles, Living-Spec chain,
+5+1 delivery stages~0--5 from baseline through archive/evolve with nested
+Align/Verify/Merge reviews, paraphrased clauses, and declared v1 gaps) is
+released with the data pack;\footnote{Stage~0--5 table:
 \texttt{method-extract.md} under the Data Availability URL.}
-the full client-facing handbook text is not.
-
-As an illustrative Method-layer extract (paraphrased, not a verbatim client clause):
-v1.0 required that every accepted increment cite a living-specification delta
-id, name a human verifier distinct from the apply agent, and refuse
-``generated-output equals verified'' shortcuts.
-Org-A's later Consolidation agenda explicitly included rewriting clauses that
-``read right but did not run'' on the Executable main chain---a recurring failure mode
-for early playbooks.
-Non-ROI intensity at closeout was closeout-visible without claiming return:
-four workshop weeks plus kickoff/readout, twelve themes (ten released),
-$11{+}11$ Opportunity-layer assets, a largely stubbed Executable main chain, and Explore closeout met / Scale admission held.
+the full handbook is not.
+As an illustrative Method-layer extract (paraphrased): v1.0 required every
+accepted increment to cite a living-specification delta id, name a human
+verifier distinct from the apply agent, and refuse ``generated-output equals
+verified'' shortcuts.
+Org-A's Consolidation agenda explicitly included rewriting Executable-main-chain
+clauses that ``read right but did not run.''
+Non-ROI intensity at closeout was visible without claiming return: four workshop
+weeks plus kickoff/readout, fourteen themes, $11{+}13$ Opportunity-layer assets,
+a largely stubbed Executable main chain, and Explore closeout met / Scale
+admission held.
 
 % FACT-IV-E
 \textbf{Opportunity layer: countable opportunity knowledge.}
-The release set indexed 11 best practices and 11 corresponding
-specifications across twelve named themes:
-AI-ready story/living specification; UI prototyping; AI artifact review;
-cycle-time/AI-effectiveness measurement design; role handoff (observation);
-user harness/context pack; knowledge-base grounding; test engineering;
-token/model routing (observation); brownfield specification-driven
-development; agent nondeterminism evaluation; and CI toward AI control-system
-checks.
-Themes \#5 and \#9 retained observation status rather than being presented as
-fully converged, so management could count the handoff without erasing
-uncertainty within it.
+The release set contained 11 best practices and 13 specifications across
+fourteen themes (twelve numbered plan themes plus two co-created: agent
+architecture; SDD Scrum events); the named index is in the public
+\texttt{theme-index.csv}.
+Counts are not 1:1 theme--spec--practice: some themes share a specification,
+theme \#1 contributes two, and two release specifications sit beside the main
+index.
+Themes \#5 and \#9 remained observation items (no release best practice), so
+management could count the handoff without erasing uncertainty.
 
 % FACT-IV-F
 \textbf{Executable layer: scaffold, not production readiness.}
@@ -1243,25 +1234,20 @@ corresponding adaptation layer: it changes how the method enters the local
 process, but the briefing record does not establish that the full path has
 cleared the same closeout or admission tests.
 
-Taken together, Org-A supplies observed method-chain and Consolidation evidence,
-while Org-B documents how the P1 bridge was packaged for a harder process
-setting. Org-B's method switch does not prove general superiority over unnamed
-alternatives, nor does its briefing establish Org-A's ledger or formal
-closeout. Both organizations plan subsequent scale work, but that plan is not
-organization-wide Scale. The framework targets mid-to-large entropy/trust
-settings, and its increment over Stage-Gate business-case gates~\cite{Cooper1990StageGate}
-is the AI4SE admission contract: a stubbed chain remains Consolidation work,
-Scale can be held after Explore, and harder-fit evidence is not promoted
-automatically.
+Taken together, Org-A supplies observed method-chain and Consolidation evidence;
+Org-B documents a harder-fit P1 packaging design without establishing Org-A's
+ledger or formal closeout.
+The increment over Stage-Gate business-case gates~\cite{Cooper1990StageGate} is
+the AI4SE admission contract: stubs stay Consolidation work, Scale can be held
+after Explore, and harder-fit evidence is not auto-promoted.
 
 \subsection{Manager Takeaways}
 
-Managers should freeze the process-shaped harness and its paradigm \(p\) on one
+Managers should freeze the process-shaped harness and paradigm \(p\) on one
 stream, require a citable method and readiness ledger before tool-only rollout,
-and keep unmet Scale items visible before a second wave. Before Scale, they
-should require named owners, seed coaches, a runnable starter kit, and removal
-of stub or apply-path self-certification clauses. These are design
-implications, not case-validated prerequisites.
+keep unmet Scale items visible, and before Scale require named owners, seed
+coaches, a runnable starter kit, and no apply-path self-certification.
+These are design implications, not case-validated prerequisites.
 
 \section{Threats to Validity}
 \label{sec:threats}
@@ -1286,18 +1272,14 @@ companion unit.
 Cynefin~\cite{Snowden2007Cynefin}, SE layering~\cite{Pressman2014SEPA},
 harness writing~\cite{Boeckeler2026Harness}, and Thoughtworks retreat
 taxonomies~\cite{Thoughtworks2026UtahRetreat,Thoughtworks2026EuropeRetreat}
-are staging vocabulary only; SDD/agentic writing~\cite{Gupta2026SDDAgentic} is
-peer context; AI-assisted maturity models~\cite{Tereci2026AASD} theorize
-maturity, while our unit is a path with closeout/admission criteria against
-Stage-Gate business-case gates~\cite{Cooper1990StageGate}.
-Together, these sources motivate staged and evidence-aware governance, but they
-do not specify the transfer contract that separates pilot closeout from later,
-wave-specific Scale admission in a brownfield organization with established
-processes. The gap addressed here is therefore the absence of an explicit
-path-and-admission contract for that transfer decision. We specify the path and
-contract, trace the strongest evidence to Org-A, and treat Org-B as a
-briefing-level adaptation design rather than a second completed validation
-site.
+are staging vocabulary; SDD/agentic writing~\cite{Gupta2026SDDAgentic} and
+AI-assisted maturity models~\cite{Tereci2026AASD} are peer/maturity context,
+while our unit is a path with closeout/admission against Stage-Gate
+business-case gates~\cite{Cooper1990StageGate}.
+Those sources motivate staged governance but do not specify the brownfield
+transfer contract that separates pilot closeout from wave-specific Scale
+admission---the gap this path-and-admission framing addresses, with strongest
+evidence at Org-A and Org-B as briefing-level adaptation.
 
 \section{Conclusion}
 \label{sec:conclusion}
@@ -1310,8 +1292,8 @@ admission contract distinguishes citable, runnable, and transferable readiness
 for closeout or admission (Section~\ref{sec:path}).
 
 \textbf{Q2.}
-Org-A's completed Explore produced a Method/Opportunity/Executable/Evidence
-handoff with readiness labels.  The evidence supported Explore closeout and
+At Org-A, the completed Explore produced a Method/Opportunity/Executable/Evidence
+handoff with readiness labels.  That evidence supported Explore closeout and
 entry into Consolidation: an observed midpoint recorded 15 requirements,
 18 changes, and 8 finished changes, with all 18 changes entering through
 \texttt{/sdd}.  It did not support Scale admission because the Executable
@@ -1326,19 +1308,15 @@ RR$\rightarrow$IPD layers$\rightarrow$SDD P1 bridge were in focus, while formal
 closeout, later-stage delivery, Consolidation, Scale admission, and
 ART/Portfolio rewrite remain unclaimed (Section~\ref{sec:org-b-fit}).
 
-Org-A's observed Explore/Consolidation evidence and Org-B's briefing-level
-adaptation design together support a bounded claim about the framework's
-feasibility and transfer logic; they do not constitute two equivalent
-validation sites.  Both organizations plan to use it as the basis for
-subsequent scale work, but no organization-wide Scale or platform-measured
-return is claimed.  The practical implication is that mid-to-large
-organizations can use pilot completion to trigger an evidence review, but
-should not treat it as Scale authorization without transfer evidence.
-The transferable artifact is therefore the path-plus-admission contract, not a
-tool catalog or a completed rollout.
+Together the cases support a bounded feasibility/transfer claim, not two
+equivalent validation sites: pilot completion may trigger evidence review, but
+without transfer evidence it is not Scale authorization.
+The transferable artifact remains the path-plus-admission contract.
 
 \section*{Acknowledgment}
 We thank Org-A and Org-B engineering participants for stage reviews.
+We also thank Di Qin and Kun Wei (Inspire Group) for constructive peer feedback
+on an earlier draft of this manuscript.
 
 \section*{Data Availability}
 Anonymized pack (CC-BY-4.0):
